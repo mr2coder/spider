@@ -1,0 +1,192 @@
+{% extends "layout.html" %} {% block body %}
+<script src="{{url_for('static',filename='js/comfig.js')}}"></script>
+<script type="text/javascript">
+/*$(document).ready(function(){
+$("#btn_file").change(function(){
+    var site=$("#btn_file").val();
+    console.log("222"+site)
+    if (site!="") 
+        {window.open("{{url_for('test')}}","_blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400,left=400,top=200")};
+            });
+ });
+          function F_Open_dialog()
+{
+document.getElementById("btn_file").click();
+}*/
+
+  
+</script>
+<header class="codrops-header" style=" margin: 0 auto 0;">
+    <h1>爬虫配置</h1>
+</header>
+<div class="col-lg-12">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                参数配置
+            </div>
+            <div class="panel-body">
+            <div class="col-lg-6">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <span for="basic2" class="col-lg-2 control-label">日期选择</span>
+                        <div class="col-lg-10">
+                            <select name='date' id='date' class="selectpicker" >
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="there">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                            <option value="seven">7</option>
+                            <option value="eight">8</option>
+                            <option value="nine">9</option>
+                            <option value="ten">10</option>
+                            <option value="eleven">11</option>
+                            <option value="twelve">12</option>
+                            <option value="thirteen">13</option>
+                            <option value="fourteen">14</option>
+                            <option value="fifteen">15</option>
+                            <option value="sixteen">16</option>
+                            <option value="seventeen">17</option>
+                            <option value="eigtheen">18</option>
+                            <option value="ninteen">19</option>
+                            <option value="twenty">20</option>
+                            <option value="t-one">21</option>
+                            <option value="t-two">22</option>
+                            <option value="t-three">23</option>
+                            <option value="t-four">24</option>
+                            <option value="t-five">25</option>
+                            <option value="t-six">26</option>
+                            <option value="t-seven">27</option>
+                            <option value="t-eight">28</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <span for="basic2" class="col-lg-2 control-label">礼拜选择</span>
+                        <div class="col-lg-10">
+                            <select name='week' id='week' class="selectpicker">
+                             <option value="mon">周一</option>
+                            <option value="tues">周二</option>
+                            <option value="wen">周三</option>
+                            <option value="thur">周四</option>
+                            <option value="fri">周五</option>
+                            <option value="sat">周六</option>
+                            <option value="sun">周日</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <span for="basic2" class="col-lg-2 control-label">时间选择</span>
+                        <div class="col-lg-10">
+                        <select name='time' id='time' class="selectpicker">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                        </select>
+                        </div>
+                    </div>
+                </form>   
+                </div>
+                <div class="col-lg-6">
+                    <div class="col-lg-6">
+                        <h4>站点选择: </h4>
+                    </div>  
+                    <div class="col-lg-6">
+                        <h4>选择你需要导入IP的方式: </h4>
+                    </div>                   
+                    <div id="quyu" class ="col-lg-6">
+                        <input type="text" class="form-control" id="textfield"  name='site' placeholder="站点">
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="" method="get">
+                         <label><input  name="earn" type="radio" value="" />自动获取 </label> 
+                         <label><input id="add-set" name="earn" type="radio" value="" />手动获取</label> 
+                        <input type="file" id="btn_file" name="sitefirst"  style="display:none" >
+                         </form>
+                    </div>
+                    <hr>
+                    <hr>
+                    <hr>
+                    <div>
+                    <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <span for="basic2" class="col-lg-2 control-label"></span>
+                        <div class="col-lg-6 col-lg-offset-4">
+                            <button id='add' data-effect="st-effect-1" style="color:#fff">添加至任务</button>
+                        </div>
+                    </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer">
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading" id="head-note">
+                 <span>载入日志文件</span>
+            </div>
+            <div class="panel-body" id="body-note" style="height:300px">
+            <div class="col-lg-6">
+             <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <span for="basic2" class="col-lg-2 control-label">日期选择</span>
+                        <div class="col-lg-10">
+                            <input type="date" id="note" style="height:30px">
+                        </div>
+                    </div>
+                </form>  
+                <form class="form-horizontal" role="form">         
+                    <div class="form-group">
+                        <span for="basic2" class="col-lg-2 control-label">日志类型</span>
+                        <div class="col-lg-10 ">
+                            <select name='note' id='note' class="selectpicker">
+                                <option value="once">视频日志文件</option>
+                                <option value="week">论文日志文件</option>
+                                <option value="month">新闻日志文件</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <span for="basic2" class="col-lg-2 control-label"></span>
+                        <div class="col-lg-10">
+                            <button id='add_note' data-effect="st-effect-1" style="color:#fff">导入日志文件</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+            <div class="panel-footer">
+            </div>
+        </div>
+    </div>
+</div>    
+
+{% endblock %}

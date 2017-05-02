@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block body %}
+	<header class="codrops-header">
+		<h1>当前数据概览 <span>目前所爬取的一些基本数据信息</span></h1>
+	</header>
+	<div class="main clearfix">
+		<div id="st-trigger-effects" class="column">
+			{%for data in info.keywords %}
+				<button data-effect="st-effect-1" style="color:#fff" class="home" >{{data[0]}}</button>
+			{%endfor%}
+		</div>
+		<div class="column">
+			{%for data in info.datas %}
+				<p><strong>{{data.collection}}</strong> >>共有数据: {{data.count}} 条</p>
+			{%endfor%}
+		</div>
+		<div class="info">
+			<!-- <p>如果请联系：</p> -->
+			<!-- <p><a href="">On Scroll Header Effects</a></p>
+			<p><a href="">A Collection of Page Transitions</a></p> -->
+		</div>
+{% endblock %}

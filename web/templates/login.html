@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>爬虫配置</title>
+    <meta name="description" content="Sidebar Transitions: Transition effects for off-canvas views" />
+    <meta name="keywords" content="transition, off-canvas, navigation, effect, 3d, css3, smooth" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='spider.ico') }}">
+    <link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/icons.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/login.css" />
+    <script src="{{url_for('static',filename='js/modernizr.custom.js')}}"></script>
+  </head>
+  <body>
+    <div id="st-container" class="st-container">
+      <div class="st-pusher">
+        <div class="st-content"><!-- this is the wrapper for the content -->
+          <div class="st-content-inner" ><!-- extra div for emulating position:fixed of the menu -->
+              <div class="container">
+                  <!-- Codrops top bar -->
+                 <div class="login-codrops-top">
+                      <a href="#">
+                          <strong></strong>系统介绍
+                      </a>
+                      <span class="right">
+                          <a href="#">返回上一级</a>
+                      </span>
+                      <div class="clr"></div>
+                  </div>
+                  <header>
+                      <h1></h1>
+              <nav class="login-codrops-demos">
+              </nav>
+                  </header>
+                  <section>       
+                      <div id="container_demo" >
+                          <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+                          <a class="hiddenanchor" id="toregister"></a>
+                          <a class="hiddenanchor" id="tologin"></a>
+                          <div id="wrapper">
+                              <div id="login" class="animate form">
+                                  <form  action="{{ url_for('login') }}" method='post'> 
+                                      <h2>登录你的账户</h2> 
+                                      <p> 
+                                          <label for="username" class="uname" data-icon="u" > 账号 </label>
+                                          <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+                                      </p>
+                                      <p> 
+                                          <label for="password" class="youpasswd" data-icon="p"> 密码 </label>
+                                          <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+                                      </p>
+                                      <p class="keeplogin"> 
+                                        <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+                                        <label for="loginkeeping">保持登录</label>
+                                      </p>
+                                      <p class="login button"> 
+                                          <input type="submit" value="登录" /> 
+                                      </p>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>  
+                  </section>
+              </div>
+          </div><!-- /st-content-inner -->
+        </div><!-- /st-content -->
+      </div><!-- /st-pusher -->
+    </div><!-- /st-container -->
+    <!-- <script src="{{url_for('static',filename='js/classie.js')}}"></script> -->
+    <!-- <script src="{{url_for('static',filename='js/sidebarEffects.js')}}"></script> -->
+  </body>
+</html>
+

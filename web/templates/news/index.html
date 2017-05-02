@@ -1,0 +1,161 @@
+{% extends "layout.html" %}
+{% block body %}
+<script src="{{url_for('static',filename='js/paper.js')}}"></script>
+<header class="codrops-header" style=" margin: 0 auto 0;">
+	<h1>论文抓取设置 <span>抓取论文数据来源：<strong>万方</strong></span></h1>
+</header>
+	 
+
+<div class="col-lg-12">
+	<div class="col-lg-12" >
+	 <div class="panel panel-default">
+	    <div class="panel-heading">
+	        参数配置
+	    </div>
+        <div class="panel-body">
+         <div class="col-lg-6">
+         	<div class="col-lg-12">
+         		<h4>内容设置: </h4>
+         	</div>
+         	<div class="col-lg-4">
+         		<input type="text" class="form-control" name='title' placeholder="题目">
+         	</div>
+         	<div class="col-lg-4">
+         		<input type="text" class="form-control" name='keyword' placeholder="关键字">
+         	</div>
+         	<div class="col-lg-4">
+         		<input type="text" class="form-control" name='abstract' placeholder="摘要">
+         	</div>
+         </div>
+         <div class="col-lg-6">
+         	<div class="col-lg-12">
+         		<h4>作者设置: </h4>
+         	</div>
+         	<div class="col-lg-4">
+         		<input type="text" class="form-control" name='author' placeholder="作者">
+         	</div>
+         	<div class="col-lg-4">
+         		<input type="text" class="form-control" name='insititution' placeholder="作者单位">
+         	</div>
+     	</div>
+     	<div class="col-lg-6">
+	     	<div class="col-lg-12">
+         		<h4>时间设置: </h4>
+         	</div>
+         	<div class="col-lg-4">
+         		<input type="text" class="form-control" id="time" name='begin' placeholder="起始年" oninput='this.value=this.value.replace(/\D/gi,"")'>
+         	</div>
+         	<div class="col-lg-4">
+         		<input type="text" class="form-control" id="time" name='end' placeholder="结束年">
+         	</div>
+     	</div>
+
+     	<div class="col-lg-6">
+			<div class="col-lg-12">
+         		<h4>频率设置: </h4>
+         	</div>
+         	<div class="col-lg-4">
+         		<select name='times' id='times' style="border-radius:4px;height:34px">
+				  <option value ="once">仅一次</option>
+				  <option value ="weekly">每周</option>
+				  <option value ="monthly">每月</option>
+				</select>
+         	</div>
+			
+			<div class="col-lg-4">
+				<button id='add' data-effect="st-effect-1" style="color:#fff">添加至任务</button>
+			</div>	
+			
+		</div>
+        </div>
+        <div class="panel-footer">
+        </div>
+     </div>
+	</div>
+	<div class="col-lg-8">
+		<div class="panel panel-default">
+            <div class="panel-heading">
+                当前已有任务
+            </div>
+            <div class="panel-body" style="height:500px">
+                <table id="already_exist" class="table table-hover">
+                	<thead>
+					<tr style="background:#aca89a;">
+						<td>目标url</td>
+						<td>添加时间</td>
+						<td>更新频率</td>
+						<td>已抓取数量</td>
+						<td>操作</td>
+						<td>更多</td>
+					</tr>
+					</thead>
+					<tbody>
+					<tr id="1">
+						<td>http://v3.bootcss.com/css/#tables</td>
+						<td>2016/11/22</td>
+						<td>每周</td>
+						<td>514</td>
+						<td>
+						  <button type="button" style="float: left;" class="close" data-dismiss="alert" onclick="del(this)">
+							  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+						  </button>
+						</td>
+						<td>
+							<button type="button" style="float: left;" class="close" data-dismiss="alert" onclick="more(this)">
+							  <span class="glyphicon glyphicon-stats"  aria-hidden="true"></span>
+							  </button>
+						</td>
+					</tr>
+					<tr>
+						<td>http://v3.bootcss.com/</td>
+						<td>2016/11/22</td>
+						<td>每周</td>
+						<td>514</td>
+						<td>
+						  <button type="button" style="float: left;" class="close" data-dismiss="alert" onclick="del(this)">
+							  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+						  </button>
+						</td>
+						<td>
+							<button type="button" style="float: left;" class="close" data-dismiss="alert" onclick="more(this)">
+							  <span class="glyphicon glyphicon-stats"  aria-hidden="true"></span>
+						  </button>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+				
+            </div>
+            <div class="panel-footer">
+	            <nav >
+				  <ul class="pagination">
+				    <li><a href="#">&laquo;</a></li>
+				    <li class="active"><a href="#">1</a></li>
+				    <li><a href="#">2</a></li>
+				    <li><a href="#">3</a></li>
+				    <li><a href="#">4</a></li>
+				    <li><a href="#">5</a></li>
+				    <li><a href="#">&raquo;</a></li>
+				  </ul>
+				</nav>
+            </div>
+        </div>
+	</div>
+	<div class="col-lg-4">
+		<div class="panel panel-default">
+            <div class="panel-heading">
+                head
+            </div>
+            <div class="panel-body" style="height:578px">
+                <p>body</p>
+            </div>
+            <div class="panel-footer">
+            </div>
+        </div>
+
+	</div>
+</div>
+
+
+	
+{% endblock %}

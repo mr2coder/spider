@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="{{ url_for('static', filename='spider.ico') }}">
+<title>IP选择</title> 
+<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+</script>
+<script>
+$(document).ready(function(){
+  var test=$("div");
+  test.trigger("select");
+  test.bind("btn_click",function(){
+    var site=$("#btn_file",window.opener.document).val();
+    console.log(site);
+    $('input[name="site"]').val(site);
+ $.post('/open_file', {
+            site:site
+        },function(responseTxt){
+var strHTML="";
+   var str = responseTxt.split('\n');
+   $.each(str,function(i,val)
+   {
+       strHTML+=val+'<br>';
+        });
+   $("#div1").html(strHTML);
+   $("#div1 li").click(function(){
+    var thistext = $(this).text();            //获取点击的内容
+         $("#quyu input",window.opener.document).val(thistext);
+        window.open("about:blank","_self").close();
+  });
+  });
+ });
+
+  test.trigger("btn_click");
+});
+</script>
+</head>
+<body>
+<div id="div1"></div>
+<input type="text"  name='site' style="display:none">
+<div style="text-align:center">
+<input type="button" value="保存" style="background-color:#388a5a;color:#ffffff">
+</div>
+</body>
+</html>

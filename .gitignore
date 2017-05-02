@@ -1,0 +1,8 @@
+#python
+*.txt
+*.pyc
+*.flv
+venv/
+__pycahche__/
+*.ini
+*.conf

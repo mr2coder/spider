@@ -1,0 +1,35 @@
+
+Fri, 28 Apr 2017 15:07:18 test_log.py[line:6] DEBUG This is debug message
+Fri, 28 Apr 2017 15:07:18 test_log.py[line:7] INFO This is info message
+Fri, 28 Apr 2017 15:07:18 test_log.py[line:8] WARNING This is warning message
+Fri, 28 Apr 2017 15:54:47 test_log.py[line:6] DEBUG This is debug message
+Fri, 28 Apr 2017 15:54:47 test_log.py[line:7] INFO This is info message
+Fri, 28 Apr 2017 15:54:47 test_log.py[line:8] WARNING This is warning message
+Fri, 28 Apr 2017 15:54:48 test_log.py[line:6] DEBUG This is debug message
+Fri, 28 Apr 2017 15:54:48 test_log.py[line:7] INFO This is info message
+Fri, 28 Apr 2017 15:54:48 test_log.py[line:8] WARNING This is warning message
+Fri, 28 Apr 2017 15:54:48 test_log.py[line:6] DEBUG This is debug message
+Fri, 28 Apr 2017 15:54:48 test_log.py[line:7] INFO This is info message
+Fri, 28 Apr 2017 15:54:48 test_log.py[line:8] WARNING This is warning message
+Fri, 28 Apr 2017 15:54:49 test_log.py[line:6] DEBUG This is debug message
+Fri, 28 Apr 2017 15:54:49 test_log.py[line:7] INFO This is info message
+Fri, 28 Apr 2017 15:54:49 test_log.py[line:8] WARNING This is warning message
+Fri, 28 Apr 2017 15:54:49 test_log.py[line:6] DEBUG This is debug message
+Fri, 28 Apr 2017 15:54:49 test_log.py[line:7] INFO This is info message
+Fri, 28 Apr 2017 15:54:49 test_log.py[line:8] WARNING This is warning message
+Fri, 28 Apr 2017 15:54:57 test_log.py[line:6] DEBUG This is debug message
+Fri, 28 Apr 2017 15:54:57 test_log.py[line:7] INFO This is info message
+Fri, 28 Apr 2017 15:54:57 test_log.py[line:8] WARNING This is warning message
+Fri, 28 Apr 2017 15:55:02 test_log.py[line:6] DEBUG This is debug message
+Fri, 28 Apr 2017 15:55:02 test_log.py[line:7] INFO This is info message
+Fri, 28 Apr 2017 15:55:02 test_log.py[line:8] WARNING This is warning message
+Fri, 28 Apr 2017 15:55:06 test_log.py[line:6] DEBUG This is debug message
+Fri, 28 Apr 2017 15:55:06 test_log.py[line:7] INFO This is info message
+Fri, 28 Apr 2017 15:55:06 test_log.py[line:8] WARNING This is warning message
+Fri, 28 Apr 2017 15:55:06 test_log.py[line:6] DEBUG This is debug message
+Fri, 28 Apr 2017 15:55:06 test_log.py[line:7] INFO This is info message
+Fri, 28 Apr 2017 15:55:06 test_log.py[line:8] WARNING This is warning message
+Fri, 28 Apr 2017 15:55:06 test_log.py[line:6] DEBUG This is debug message
+Fri, 28 Apr 2017 15:55:06 test_log.py[line:7] INFO This is info message
+Fri, 28 Apr 2017 15:55:06 test_log.py[line:8] WARNING This is warning message
+Fri, 28 Apr 2017 15:57:25 paper_url_spider.py[line:236] INFO hahaahah
