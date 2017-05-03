@@ -1,25 +1,27 @@
-from spider import urlSpider
 import requests
 from lxml import html
 import re,datetime
 from multiprocessing.dummy import Pool as ThreadPool	
 import argparse
-import fetch_free_proxyes as fproxy
 import random
 import json
 import os
 import time as realtime
+import fetch_free_proxyes as fproxy
 import clean
-
 import logging.config
-logfile = os.path.join( '/'.join(os.path.abspath(__file__).split('/')[:-4]),"logger.conf")
+path = os.path.abspath(__file__).replace('\\','/').split('/')
+
+logfile = os.path.join( '/'.join(path[:-4]),"logger.conf")
 logging.config.fileConfig(logfile)
 logger = logging.getLogger("paper")
 
 #add sys.path
 import sys
-sys.path.append('/'.join(os.path.abspath(__file__).split('/')[:-3]))
+sys.path.append('/'.join(path[:-3]))
 from mongo import mongoConnection
+
+
 TIMEOUT = 4
 FNAME = 'DM.txt'
 PAGEINDEX = 'index.txt' #存放下一次应该访问的页码
@@ -149,11 +151,24 @@ def get_paper(url,quote,proxie,time=TIMEOUT, **kwarg):
 		logger.debug (e)
 		return None	
 
-def click(url):
+def click(url,socketio=None,proxy=False):
 	logger.info('免费代理获取中  \n这可能花费几分钟，请稍后...')
-	proxies = fproxy.fetch_all()
-	proxies = [{'http':'http://'+x} for x in proxies]
+	if socketio:
+		socketio.emit('my_response',
+			{'data': '免费代理获取中  \n这可能花费几分钟，请稍后...'},
+			namespace='/runtime_log')
+		socketio.sleep(1)
+
+	proxies = [None]
+	if proxy:
+		proxies = fproxy.fetch_all()
+		proxies = [{'http':'http://'+x} for x in proxies]
 	logger.info('免费代理获取完毕，总共%d条。'%len(proxies))
+	if socketio:
+		socketio.sleep(1)
+		socketio.emit('my_response',
+			{'data': '免费代理获取完毕，总共%d条。'%len(proxies)},
+			namespace='/runtime_log')
 	num = get_page_nums(url)
 	logger.info(num)
 	mongo = mongoConnection.mongoConnection(db='wanFang',collection='paperinfo')
@@ -188,7 +203,12 @@ def click(url):
 				
 				if papers is not None and papers != -1:
 					failed_tag = 0
-					logger.info('papers:',papers['title'])
+					logger.info('papers:'+papers['title'])
+					if socketio:
+						socketio.emit('my_response',
+							{'data': 'papers:'+papers['title']},
+							namespace='/runtime_log')
+						socketio.sleep(1)
 					try:
 						papers['url'] = url
 						papers = clean.clean(papers) #按照规定格式格式化

@@ -11,13 +11,14 @@ import logger
 URL = 'http://www.pss-system.gov.cn/sipopublicsearch/patentsearch/showSearchResult-startWa.shtml'
 #add sys.path
 import logging.config
-logfile = os.path.join( '/'.join(os.path.abspath(__file__).split('/')[:-4]),"logger.conf")
+path = os.path.abspath(__file__).replace('\\','/').split('/')
+logfile = os.path.join( '/'.join(path[:-4]),"logger.conf")
 logging.config.fileConfig(logfile)
 logger = logging.getLogger("patent")
 
 #add sys.path
 import sys
-sys.path.append('/'.join(os.path.abspath(__file__).split('/')[:-3]))
+sys.path.append('/'.join(path[:-3]))
 TIMEOUT = 10
 def str2Num(string=""):
 	#把字符串转化为数字，'34534j34'=>3453434

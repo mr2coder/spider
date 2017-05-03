@@ -1,5 +1,6 @@
 $(document).ready(function() {
     var socket = null;
+    var connect_tag = false;
 
     //chart initial
     myChart = echarts.init(document.getElementById('body-graph'));
@@ -94,78 +95,15 @@ $(document).ready(function() {
     });
 
     //================refresh_task========================
-    var refresh_task = null;
     $('#already_exist').on('click', '#download', function() {
         var table = $('#already_exist').DataTable();
         var data = table.row($(this).parents('tr')).data()
         $('#log').html("");
         $('#log').append('<p>' + $('<div/>').text('任务开始：').html());
-        // refresh_task = setInterval(refresh_log, 1000); //
-        log_socket();
-        //download button action
-        // $.post('/api_paper_download_begin', {
-        //     url: data['url'],
-        // }, function(data) {});
-        // if (refresh_task == null) {
-        //     $('#log').html("");
-        //     $('#log').append('<p>' + $('<div/>').text('任务开始：').html());
-        //     // refresh_task = setInterval(refresh_log, 1000); //
-        //     log_socket();
-        // }
+        log_socket(data['url']);
 
     });
-    /*
-        function refresh_log(url) {
-            // body...
-            $.post('/api_paper_refresh_log', {
-                url: url
-            }, function(data) {
-                $('#log').append('<p>' + $('<div/>').text(data['line']).html());
-                $('#log').scrollTop($('#log')[0].scrollHeight); //Keep the bottom alignment
-                if (data['line'].slice(0, 7) == 'Success') {
-                    window.clearInterval(refresh_task);
-                    refresh_task = null;
-                }
-            });
-        }
 
-
-        $('#disconnect').on('click', function() {
-            stop_refresh_log()
-            return false;
-
-        });
-
-        function stop_refresh_log() {
-            // body...
-            $.post('/api_paper_download_end', {}, function(data) {
-                if (data == 0) {
-                    window.clearInterval(refresh_task);
-                    refresh_task = null;
-                    $('#log').append('<p>' + $('<div/>').text('task should be shutdown...').html());
-                    $('#log').scrollTop($('#log')[0].scrollHeight); //Keep the bottom alignment
-                }
-            });
-
-        }
-        */
-
-    /*
-    Disable
-    $('#already_exist tbody').on('click', 'button.close', function() {
-        if (confirm('确认要删除么？')) {
-            var button = this
-            $.getJSON('/_delete_item', {
-                a: 1
-            }, function(data) {
-                $('#already_exist').DataTable()
-                    .row($(button).parents('tr'))
-                    .remove()
-                    .draw();
-            });
-        }
-    });
-    */
     $('#already_exist').on('click', 'button.close', function() {
         if (confirm('确认要删除么？')) {
             var button = this
@@ -388,40 +326,42 @@ $(document).ready(function() {
     }
 
 
-
-
-
-
-    function log_socket() {
+    function log_socket(url) {
         //websocket配置
         console.log("dadfasd");
-        namespace = '/runtinme_log';
+        namespace = '/runtime_log';
 
         // Connect to the Socket.IO server.
         // The connection URL has the following format:
         //     http[s]://<domain>:<port>[/<namespace>]
-        console.log(socket == null)
-        if (socket == null) {
+        console.log(connect_tag)
+        if (!connect_tag) {
             socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace, {
-             "reconnection": false, "force new connection": true, "timeout": 1 ,"autoconnect":false});
+                "reconnection": false,
+                "force new connection": true,
+                "autoconnect": true
+            });
+            connect_tag = true;
             socket.emit('connect');
-            console.log("connect agin");
+            socket.emit('message',url)
             socket.on('my_response', function(msg) {
-                $('#log').append('<p>' + $('<div/>').text('Received #' + msg.count + ': ' + msg.data).html());
+                $('#log').append('<p>' + $('<div/>').text('Received #' + msg.data).html());
                 $('#log').scrollTop($('#log')[0].scrollHeight);
+            });
+
+            socket.on('disconnect', function(msg) {
+                console.log()
+                $('#log').append('<p>' + $('<div/>').text('断开连接!').html());
+                $('#log').scrollTop($('#log')[0].scrollHeight);
+                socket = null;
             });
         }
 
-
-        // socket.disconnect();
-        // console.log("disconnect")
     }
     $('#disconnect').on('click', function() {
-        socket.emit('disconnect_paper');
+        connect_tag = false;
         socket.disconnect();
-        $('#log').append('<p>' + $('<div/>').text('断开连接!').html());
-        $('#log').scrollTop($('#log')[0].scrollHeight);
-        socket = null;
+
     });
 
 

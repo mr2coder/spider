@@ -12,12 +12,14 @@ import os
 
 #add sys.path
 import logging.config
-logfile = os.path.join( '/'.join(os.path.abspath(__file__).split('/')[:-4]),"logger.conf")
+path = os.path.abspath(__file__).replace('\\','/').split('/')
+
+logfile = os.path.join( '/'.join(path[:-4]),"logger.conf")
 logging.config.fileConfig(logfile)
 logger = logging.getLogger("video")
 #add sys.path
 import sys
-sys.path.append('/'.join(os.path.abspath(__file__).split('/')[:-3]))
+sys.path.append('/'.join(path[:-3]))
 from mongo import mongoConnection
 
 
