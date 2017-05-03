@@ -30,7 +30,7 @@ def disconnect_request():
 	if back_thread!=None:
 		back_thread.kill()
 		back_thread = None
-	disconnect()
+	# disconnect()
 	return False
 	
 
