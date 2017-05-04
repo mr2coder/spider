@@ -14,14 +14,16 @@ from web.python.utils.video_url_spider import click as target
 back_thread = None
 @socketio.on('connect', namespace='/runtime_log')
 def test_connect():
-	emit('my_response', {'data': 'Connected', 'count': 0})
+	emit('my_response', {'data': 'Connected video', 'count': 0})
 
 @socketio.on('message', namespace='/runtime_log')
-def run(message):
+def run(*message):
+	print(message )
 	global back_thread
 	if back_thread==None:
 		back_thread = socketio.start_background_task(target=target,
-			id=message,socketio=socketio,proxy=False)
+			content=message[0],site=message[1],
+			socketio=socketio,proxy=False)
 
 #断开链接
 @socketio.on('disconnect', namespace='/runtime_log')
@@ -31,7 +33,7 @@ def disconnect_request():
 		back_thread.kill()
 		back_thread = None
 	emit('disconnect', {'data': 'disconnect', 'count': 0})
-	print('my name is disconnnect')
+	print('my name is video')
 	disconnect()
 	
 

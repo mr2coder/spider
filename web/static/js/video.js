@@ -72,8 +72,8 @@ $(document).ready(function() {
             content: content,
             site: site,
             feq: feq,
-            len:len,
-            time_limit:time_limit
+            len: len,
+            time_limit: time_limit
         }, function(data) {
             if (data == null) {
                 alert("任务已存在，请不要重复添加！")
@@ -304,26 +304,59 @@ $(document).ready(function() {
         myChart.setOption(option);
     }
 
-    var refresh_task = null;
+    var socket = null;
+    var connect_tag = false;
+
     $('#already_exist').on('click', '#download', function() {
         var table = $('#already_exist').DataTable();
         var data = table.row($(this).parents('tr')).data()
             //download button action
-            // console.log(data)
-        $.post('/api_video_download_begin', {
-            content: data['content'],
-            site: data['site']
-        }, function(data) {
-            // console.log(data);
-        });
-        if (refresh_task == null) {
-            $('#log').html("");
-            $('#log').append('<p>' + $('<div/>').text('task begin...').html());
-            refresh_task = setInterval(refresh_log, 500); //
-        }
+        console.log(data);
+        $('#log').html("");
+        $('#log').append('<p>' + $('<div/>').text('task begin...').html());
+        log_socket(data['content'], data['site'])
 
     });
 
+    function log_socket(content, site) {
+        //websocket配置
+        namespace = '/runtime_log';
+
+        // Connect to the Socket.IO server.
+        // The connection URL has the following format:
+        //     http[s]://<domain>:<port>[/<namespace>]
+        if (!connect_tag) {
+            socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace, {
+                "reconnection": false,
+                "force new connection": true,
+                "autoconnect": true
+            });
+            connect_tag = true;
+            socket.emit('connect');
+            socket.emit('message', content, site)
+            socket.on('my_response', function(msg) {
+                $('#log').append('<p>' + $('<div/>').text('Received #' + msg.data).html());
+                $('#log').scrollTop($('#log')[0].scrollHeight);
+            });
+
+            socket.on('disconnect', function(msg) {
+                console.log()
+                $('#log').append('<p>' + $('<div/>').text('断开连接!').html());
+                $('#log').scrollTop($('#log')[0].scrollHeight);
+                socket = null;
+            });
+        }
+
+    }
+    $('#disconnect').on('click', function() {
+        connect_tag = false;
+        socket.disconnect();
+
+    });
+
+    /***
+    弃用
+    ***
     function refresh_log(url) {
         // body...
         $.post('/api_video_refresh_log', {
@@ -337,14 +370,11 @@ $(document).ready(function() {
             }
         });
     }
-
-
     $('#disconnect').on('click', function() {
         stop_refresh_log()
         return false;
 
     });
-
     function stop_refresh_log() {
         // body...
         $.post('/api_video_download_end', {}, function(data) {
@@ -358,5 +388,6 @@ $(document).ready(function() {
         });
 
     }
+    */
 
 });

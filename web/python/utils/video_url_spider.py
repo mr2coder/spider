@@ -25,21 +25,21 @@ from mongo import mongoConnection
 
 
 
-def url_spider(kwargs):
+def url_spider(kwargs,socketio=None):
 	logger.info('target site:{}, spider begin...'.format(kwargs['site']))
 	if 'youtube' in kwargs['site']:
-		youtube_url_spider(kwargs['content'])
+		youtube_url_spider(kwargs['content'],socketio=socketio)
 	if 'bilibili' in kwargs['site']:
-		bilibili_url_spider(kwargs['content'])
+		bilibili_url_spider(kwargs['content'],socketio=socketio)
 	if 'youku' in kwargs['site']:
-		youku_url_spider(kwargs['content'])
+		youku_url_spider(kwargs['content'],socketio=socketio)
 	if 'sina' in kwargs['site']:
-		sina_url_spider(kwargs['content'])
+		sina_url_spider(kwargs['content'],socketio=socketio)
 	if 'iqiyi' in kwargs['site']:
-		iqiyi_url_spider(kwargs['content'])
+		iqiyi_url_spider(kwargs['content'],socketio=socketio)
 
 
-def youtube_url_spider(content):
+def youtube_url_spider(content,socketio=None):
 	base_url = 'https://www.youtube.com/results?search_query='
 	url = base_url+content
 	response = requests.get(url)
@@ -50,7 +50,7 @@ def youtube_url_spider(content):
 
 
 #==================bilibili==============
-def get_bilibili_pagenums(response):
+def get_bilibili_pagenums(response,socketio=None):
 	"""
 	Gets the number of pages of content
 	"""
@@ -63,7 +63,7 @@ def get_bilibili_pagenums(response):
 		logger.debug (e)
 		return None
 
-def get_bilibili_info(args):
+def get_bilibili_info(args,socketio=None):
 	"""
 	"""
 	try:
@@ -111,7 +111,7 @@ def get_bilibili_info(args):
 		logger.debug(e)
 	
 
-def bilibili_url_spider(content):
+def bilibili_url_spider(content,socketio=None):
 	patt = "http://search.bilibili.com/ajax_api/video?keyword={content}&page={page}&duration={duration}"
 	patt_para = {'content':content, 'page':'1', 'duration':"1"}
 	spider = urlSpider(patt, patt_para)
@@ -122,7 +122,7 @@ def bilibili_url_spider(content):
 #========================iqiyi=======================
 	
 #=========================sina========================
-def sina_url_spider(content):
+def sina_url_spider(content,socketio=None):
 	try:
 		thread_num = 1
 		patt = "http://so.video.sina.com.cn/interface/s?from=video&wd={content}&s_id=w00001&p={page}&n=20"
@@ -135,9 +135,19 @@ def sina_url_spider(content):
 		json_data = response.json()
 		total_num = json_data["total"]
 		logger.info('total items:'+str(total_num))
+		if socketio:
+			socketio.sleep(1)
+			socketio.emit('my_response',
+				{'data': 'total items:'+str(total_num)},
+				namespace='/runtime_log')
 		#get url's detail infomation
 		def get_info(url):
 			logger.info('Currently crawling web pages is: '+url)
+			if socketio:
+				socketio.emit('my_response',
+					{'data': 'Currently crawling web pages is: '+url},
+					namespace='/runtime_log')
+				socketio.sleep(1)
 			response = requests.get(url)
 			if response.status_code!=200: return None
 			result = [{"videoname":re.compile(r'(<.*?>)').sub("",x.get("videoname")),
@@ -156,10 +166,14 @@ def sina_url_spider(content):
 			except Exception as e:
 				logger.debug(e)
 			return 0
-		#creat all page url 
+		#creat all page url
 		urls = [patt.format(content=content, page=str(x+1)) for x in range((int(total_num)+19)//20)]
-		pool = ThreadPool(thread_num)
-		results = pool.map(get_info, urls)
+		if socketio:
+		 	for url in urls:
+		 	 	get_info(url) 
+		else:
+			pool = ThreadPool(thread_num)
+			results = pool.map(get_info, urls)
 		logger.info('Success: Task update finshed..')
 	except Exception as e:
 		logger.debug(e)
@@ -168,7 +182,7 @@ def sina_url_spider(content):
 def youku_url_spider(content):
 	pass
 
-def click(content,site):
+def click(content,site,socketio=None,proxy=False):
 	args = {}
 	logger.info(content+':'+site)
 	args['content'] = content
@@ -177,7 +191,7 @@ def click(content,site):
 	time_ = time.strftime( '%Y-%m-%d %X', time.localtime())
 	infomation_id = mongoDB.collection.update({
 		'site':site,'content':content},{'$set':{'inactive':1,'last_time':time_}})
-	url_spider(args)
+	url_spider(args,socketio=socketio)
 
 def auto_run():
 	mongo = mongoConnection.mongoConnection(db='video',collection='spider')

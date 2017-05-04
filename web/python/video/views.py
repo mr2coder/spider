@@ -3,6 +3,7 @@ from web import app
 from flask import request, session, g, redirect, url_for, abort, render_template, flash, jsonify
 from web.python.video import models
 from datetime import datetime
+from web.python.video import log_socket
 
 @app.route('/video')
 def video():
@@ -59,6 +60,7 @@ def api_video_delete_task():
 	info = models.api_delete_task(content,site,time)
 	return jsonify(info)
 
+'''
 video_popen = None
 @app.route('/api_video_download_begin', methods=['GET', 'POST'])
 def api_video_download_begin():
@@ -85,7 +87,7 @@ def api_video_download_end():
 	code = models.api_video_download_end(video_popen)
 	video_popen = None
 	return jsonify(code)
-
+'''
 
 if __name__ == '__main__':
 	app.secret_key = 'super secret key'

@@ -6,8 +6,8 @@ app = Flask(__name__)
 from python.home import views
 from python.paper import views
 from python.news import views
-from python.video import views
 from python.patent import views
+from python.video import views
 from python.config import views
 @app.errorhandler(404)  
 def page_not_found(e):  
