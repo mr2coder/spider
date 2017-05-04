@@ -11,7 +11,7 @@ URL = 'http://www.pss-system.gov.cn/sipopublicsearch/patentsearch/showSearchResu
 #add sys.path
 import logging.config
 path = os.path.abspath(__file__).replace('\\','/').split('/')
-logfile = os.path.join( '/'.join(path[:-4]),"logger.conf")
+logfile = os.path.join( '/'.join(path[:-4]),"logger.config")
 logging.config.fileConfig(logfile)
 logger = logging.getLogger("patent")
 
