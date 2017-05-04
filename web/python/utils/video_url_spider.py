@@ -14,7 +14,7 @@ import os
 import logging.config
 path = os.path.abspath(__file__).replace('\\','/').split('/')
 
-logfile = os.path.join( '/'.join(path[:-4]),"logger.config")
+logfile = os.path.join( '/'.join(path[:-4]),"logger.conf")
 logging.config.fileConfig(logfile)
 logger = logging.getLogger("video")
 #add sys.path
