@@ -567,3 +567,15 @@ Thu, 04 May 2017 15:32:59 video_url_spider.py[line:167] DEBUG batch op errors oc
 Thu, 04 May 2017 15:32:59 video_url_spider.py[line:145] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=俄罗斯&s_id=w00001&p=4&n=20
 Thu, 04 May 2017 15:33:00 video_url_spider.py[line:167] DEBUG batch op errors occurred
 Thu, 04 May 2017 15:33:00 video_url_spider.py[line:145] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=俄罗斯&s_id=w00001&p=5&n=20
+Thu, 04 May 2017 15:42:41 video_url_spider.py[line:187] INFO 俄罗斯:sina
+Thu, 04 May 2017 15:42:41 video_url_spider.py[line:29] INFO target site:sina, spider begin...
+Thu, 04 May 2017 15:42:41 video_url_spider.py[line:137] INFO total items:20850
+Thu, 04 May 2017 15:42:42 video_url_spider.py[line:145] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=俄罗斯&s_id=w00001&p=1&n=20
+Thu, 04 May 2017 15:42:43 video_url_spider.py[line:167] DEBUG batch op errors occurred
+Thu, 04 May 2017 15:42:43 video_url_spider.py[line:145] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=俄罗斯&s_id=w00001&p=2&n=20
+Thu, 04 May 2017 15:42:44 video_url_spider.py[line:167] DEBUG batch op errors occurred
+Thu, 04 May 2017 15:42:44 video_url_spider.py[line:145] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=俄罗斯&s_id=w00001&p=3&n=20
+Thu, 04 May 2017 15:42:45 video_url_spider.py[line:167] DEBUG batch op errors occurred
+Thu, 04 May 2017 15:42:45 video_url_spider.py[line:145] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=俄罗斯&s_id=w00001&p=4&n=20
+Thu, 04 May 2017 15:42:46 video_url_spider.py[line:167] DEBUG batch op errors occurred
+Thu, 04 May 2017 15:42:46 video_url_spider.py[line:145] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=俄罗斯&s_id=w00001&p=5&n=20
