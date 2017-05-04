@@ -4,6 +4,7 @@ from flask import request, session, g, redirect, url_for, abort, render_template
 from web.python.patent import models
 from datetime import datetime
 import sys
+from web.python.patent import log_socket
 
 
 

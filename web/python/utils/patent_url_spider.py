@@ -4,10 +4,9 @@ import re,time,datetime
 from multiprocessing.dummy import Pool as ThreadPool	
 import argparse
 import fetch_free_proxyes as fproxy
-import random
+import random,os
 from patentSpider import FormData
 from bson.objectid import ObjectId
-import logger
 URL = 'http://www.pss-system.gov.cn/sipopublicsearch/patentsearch/showSearchResult-startWa.shtml'
 #add sys.path
 import logging.config
@@ -19,6 +18,7 @@ logger = logging.getLogger("patent")
 #add sys.path
 import sys
 sys.path.append('/'.join(path[:-3]))
+from mongo import mongoConnection
 TIMEOUT = 10
 def str2Num(string=""):
 	#把字符串转化为数字，'34534j34'=>3453434
@@ -117,12 +117,21 @@ def form_produce(content,page = None):
 		form.resultPagination_start = page
 	return form.get_form()
 
-def click(url,content):
-	# print('免费代理获取中  \n这可能花费几分钟，请稍后...')
-	# proxies = fproxy.fetch_all()
-	# proxies = [{'http':'http://'+x} for x in proxies]
-	# print('免费代理获取完毕，总共%d条。'%len(proxies))
+def click(url,content,socketio=None,proxy=False):
 	proxies = [None]
+	if proxy:
+		if socketio:
+			socketio.sleep(1)
+			socketio.emit('my_response',
+				{'data': '免费代理获取中  \n这可能花费几分钟，请稍后...'},
+				namespace='/runtime_log')
+		proxies = fproxy.fetch_all()
+		proxies = [{'http':'http://'+x} for x in proxies]
+		if socketio:
+			socketio.sleep(1)
+			socketio.emit('my_response',
+				{'data': '免费代理获取中  \n这可能花费几分钟，请稍后...'},
+				namespace='/runtime_log')
 	form = form_produce(content)
 	num = get_page_nums(url,form)
 	logger.info(num)
@@ -135,7 +144,7 @@ def click(url,content):
 		proxie = random.choice(proxies)
 		patents = get_patent(url,form,proxie)
 		while patents is None:
-			logger.debug('失败次数为：',attempt+1,failed_tag)
+			logger.debug('失败次数为：'+str(attempt+1)+str(failed_tag))
 			failed_tag +=1
 			attempt += 1
 			if attempt%3==0:
@@ -143,6 +152,11 @@ def click(url,content):
 				break
 			if failed_tag%10==0:
 				logger.info("抓取新代理，请稍等")
+				if socketio:
+					socketio.sleep(1)
+					socketio.emit('my_response',
+						{'data': '抓取新代理，请稍等'},
+						namespace='/runtime_log')
 				proxies = fproxy.fetch_all()
 				proxies = [{'http':'http://'+x} for x in proxies]
 			proxie = random.choice(proxies)
@@ -153,7 +167,12 @@ def click(url,content):
 		if patents!= -1:
 			try:
 				for x in patents['titles']:
-					logger.info('title:',x)
+					logger.info('title:'+x)
+					if socketio:
+						socketio.sleep(1)
+						socketio.emit('my_response',
+							{'data': 'title:'+x},
+							namespace='/runtime_log')
 				store(patents,str(content['_id']))
 			except Exception as e:
 				logger.debug(e)
@@ -195,7 +214,16 @@ def auto_run(proccess_num=10):
 	pool = ThreadPool(proccess_num)
 	results = pool.map(click, zip(repeat(URL), tasks))
 
-
+def auto_click(id,socketio=None,proxy=False):
+	mongo = mongoConnection.mongoConnection(db='patent',collection='spider')
+	content = list(mongo.collection.find({'_id':ObjectId(id)}))
+	content = content[0]
+	url = URL
+	socketio.emit('my_response',
+			{'data': URL},
+			namespace='/runtime_log')
+	socketio.sleep(1)
+	click(url,content,socketio=socketio,proxy=proxy)
 
 def main():
 	parser = argparse.ArgumentParser()
@@ -216,12 +244,13 @@ def main():
 
 
 def test_get_patent():
-	# url = 'http://d.wanfangdata.com.cn/Periodical/xtgcydzjs201610009'
-	# get_patent(url,proxies=[None])
+	url = 'http://d.wanfangdata.com.cn/Periodical/xtgcydzjs201610009'
+	get_patent(url,proxies=[None])
 	while True:
 		print("*****")
 
 if __name__ == '__main__':
+	test_get_patent()
 	main()
 	# a = []
 	# print(a==[])

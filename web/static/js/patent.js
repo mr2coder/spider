@@ -245,23 +245,57 @@ $(document).ready(function() {
         myChart.setOption(option);
     }
 
-    var refresh_task = null;
+    var socket = null;
+    var connect_tag = false;
     $('#already_exist').on('click', '#download', function() {
         var table = $('#already_exist').DataTable();
         var data = table.row($(this).parents('tr')).data()
             //download button action
-        console.log(data)
-        $.post('/api_patent_download_begin', {
-            _id: data['_id'],
-        }, function(data) {});
-        if (refresh_task == null) {
-            $('#log').html("");
-            $('#log').append('<p>' + $('<div/>').text('任务开始：').html());
-            refresh_task = setInterval(refresh_log, 1000); //
-        }
+        $('#log').html("");
+        $('#log').append('<p>' + $('<div/>').text('任务开始：').html());
+        log_socket(data['_id'])
 
     });
 
+    function log_socket(id) {
+        console.log(id)
+        //websocket配置
+        namespace = '/runtime_log';
+
+        // Connect to the Socket.IO server.
+        // The connection URL has the following format:
+        //     http[s]://<domain>:<port>[/<namespace>]
+        console.log(connect_tag)
+        if (!connect_tag) {
+            socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace, {
+                "reconnection": false,
+                "force new connection": true,
+                "autoconnect": true
+            });
+            connect_tag = true;
+            socket.emit('connect');
+            socket.emit('message', id)
+            socket.on('my_response', function(msg) {
+                $('#log').append('<p>' + $('<div/>').text('Received #' + msg.data).html());
+                $('#log').scrollTop($('#log')[0].scrollHeight);
+            });
+
+            socket.on('disconnect', function(msg) {
+                console.log()
+                $('#log').append('<p>' + $('<div/>').text('断开连接!').html());
+                $('#log').scrollTop($('#log')[0].scrollHeight);
+                socket = null;
+            });
+        }
+
+    }
+    $('#disconnect').on('click', function() {
+        connect_tag = false;
+        socket.disconnect();
+
+    });
+
+    /*
     function refresh_log(_id) {
         // body...
         $.post('/api_patent_refresh_log', {
@@ -295,5 +329,6 @@ $(document).ready(function() {
         });
 
     }
+    */
 
 });
