@@ -320,7 +320,7 @@ $(document).ready(function() {
 
     function log_socket(content, site) {
         //websocket配置
-        namespace = '/runtime_log';
+        namespace = '/video';
 
         // Connect to the Socket.IO server.
         // The connection URL has the following format:

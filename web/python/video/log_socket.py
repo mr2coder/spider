@@ -1,7 +1,6 @@
 # -*- coding:utf8 -*-
-from web import app
-from flask_socketio import SocketIO, emit, disconnect
-socketio = SocketIO(app)
+from web import app,socketio
+from flask_socketio import emit, disconnect
 from web.python.utils.video_url_spider import click as target
 
 # def target(url,socketio):
@@ -12,11 +11,11 @@ from web.python.utils.video_url_spider import click as target
 # 			namespace='/runtime_log')
 #开始链接
 back_thread = None
-@socketio.on('connect', namespace='/runtime_log')
+@socketio.on('connect', namespace='/video')
 def test_connect():
 	emit('my_response', {'data': 'Connected video', 'count': 0})
 
-@socketio.on('message', namespace='/runtime_log')
+@socketio.on('message', namespace='/video')
 def run(*message):
 	print(message )
 	global back_thread
@@ -26,7 +25,7 @@ def run(*message):
 			socketio=socketio,proxy=False)
 
 #断开链接
-@socketio.on('disconnect', namespace='/runtime_log')
+@socketio.on('disconnect', namespace='/video')
 def disconnect_request():
 	global back_thread
 	if back_thread!=None:

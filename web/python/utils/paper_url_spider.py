@@ -156,7 +156,7 @@ def click(url,socketio=None,proxy=False):
 	if socketio:
 		socketio.emit('my_response',
 			{'data': '免费代理获取中  \n这可能花费几分钟，请稍后...'},
-			namespace='/runtime_log')
+			namespace='/paper')
 		socketio.sleep(1)
 
 	proxies = [None]
@@ -168,7 +168,7 @@ def click(url,socketio=None,proxy=False):
 		socketio.sleep(1)
 		socketio.emit('my_response',
 			{'data': '免费代理获取完毕，总共%d条。'%len(proxies)},
-			namespace='/runtime_log')
+			namespace='/paper')
 	num = get_page_nums(url)
 	logger.info(num)
 	mongo = mongoConnection.mongoConnection(db='wanFang',collection='paperinfo')
@@ -207,7 +207,7 @@ def click(url,socketio=None,proxy=False):
 					if socketio:
 						socketio.emit('my_response',
 							{'data': 'papers:'+papers['title']},
-							namespace='/runtime_log')
+							namespace='/paper')
 						socketio.sleep(1)
 					try:
 						papers['url'] = url

@@ -124,14 +124,14 @@ def click(url,content,socketio=None,proxy=False):
 			socketio.sleep(1)
 			socketio.emit('my_response',
 				{'data': '免费代理获取中  \n这可能花费几分钟，请稍后...'},
-				namespace='/runtime_log')
+				namespace='/patent')
 		proxies = fproxy.fetch_all()
 		proxies = [{'http':'http://'+x} for x in proxies]
 		if socketio:
 			socketio.sleep(1)
 			socketio.emit('my_response',
 				{'data': '免费代理获取中  \n这可能花费几分钟，请稍后...'},
-				namespace='/runtime_log')
+				namespace='/patent')
 	form = form_produce(content)
 	num = get_page_nums(url,form)
 	logger.info(num)
@@ -156,7 +156,7 @@ def click(url,content,socketio=None,proxy=False):
 					socketio.sleep(1)
 					socketio.emit('my_response',
 						{'data': '抓取新代理，请稍等'},
-						namespace='/runtime_log')
+						namespace='/patent')
 				proxies = fproxy.fetch_all()
 				proxies = [{'http':'http://'+x} for x in proxies]
 			proxie = random.choice(proxies)
@@ -172,7 +172,7 @@ def click(url,content,socketio=None,proxy=False):
 						socketio.sleep(1)
 						socketio.emit('my_response',
 							{'data': 'title:'+x},
-							namespace='/runtime_log')
+							namespace='/patent')
 				store(patents,str(content['_id']))
 			except Exception as e:
 				logger.debug(e)
@@ -221,7 +221,7 @@ def auto_click(id,socketio=None,proxy=False):
 	url = URL
 	socketio.emit('my_response',
 			{'data': URL},
-			namespace='/runtime_log')
+			namespace='/patent')
 	socketio.sleep(1)
 	click(url,content,socketio=socketio,proxy=proxy)
 

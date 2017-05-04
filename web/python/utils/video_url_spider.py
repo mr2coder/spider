@@ -139,14 +139,14 @@ def sina_url_spider(content,socketio=None):
 			socketio.sleep(1)
 			socketio.emit('my_response',
 				{'data': 'total items:'+str(total_num)},
-				namespace='/runtime_log')
+				namespace='/video')
 		#get url's detail infomation
 		def get_info(url):
 			logger.info('Currently crawling web pages is: '+url)
 			if socketio:
 				socketio.emit('my_response',
 					{'data': 'Currently crawling web pages is: '+url},
-					namespace='/runtime_log')
+					namespace='/video')
 				socketio.sleep(1)
 			response = requests.get(url)
 			if response.status_code!=200: return None

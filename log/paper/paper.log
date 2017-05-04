@@ -403,3 +403,139 @@ Thu, 04 May 2017 09:20:17 paper_url_spider.py[line:206] INFO papers:遵守规则
 Thu, 04 May 2017 09:20:18 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
 Thu, 04 May 2017 09:20:18 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
 Thu, 04 May 2017 09:20:18 paper_url_spider.py[line:206] INFO papers:不确定性人工智能
+Thu, 04 May 2017 15:30:21 paper_url_spider.py[line:155] INFO 免费代理获取中  
+这可能花费几分钟，请稍后...
+Thu, 04 May 2017 15:30:22 paper_url_spider.py[line:166] INFO 免费代理获取完毕，总共1条。
+Thu, 04 May 2017 15:30:25 paper_url_spider.py[line:173] INFO 3774
+Thu, 04 May 2017 15:30:27 paper_url_spider.py[line:206] INFO papers:人工智能：从科学梦到新蓝海--人工智能产业发展分析及对策
+Thu, 04 May 2017 15:30:28 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:28 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:30 paper_url_spider.py[line:206] INFO papers:计算机人工智能的发展源流及曙光——评《心智、语言和机器——维特根斯坦哲学和人工智能科学的对话》
+Thu, 04 May 2017 15:30:31 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:31 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:31 paper_url_spider.py[line:206] INFO papers:遵守规则与人工智能——维特根斯坦与图灵人工智能理论的交集
+Thu, 04 May 2017 15:30:32 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:32 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:32 paper_url_spider.py[line:206] INFO papers:不确定性人工智能
+Thu, 04 May 2017 15:30:33 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:33 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:33 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:33 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:33 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:33 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:34 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:34 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:37 paper_url_spider.py[line:206] INFO papers:人工智能研究面临的两个问题——对人工智能的思考探讨
+Thu, 04 May 2017 15:30:38 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:38 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:38 paper_url_spider.py[line:206] INFO papers:论人工智能产品侵权行为责任认定——以人工智能汽车为例
+Thu, 04 May 2017 15:30:39 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:39 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:39 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:39 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:39 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:39 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:40 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:40 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:40 paper_url_spider.py[line:206] INFO papers:智能、智慧及人工智能发展问题与向超级人工智能迈进的务实发展策略
+Thu, 04 May 2017 15:30:41 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:41 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:42 paper_url_spider.py[line:206] INFO papers:人工智能,天使还是魔鬼?——谭铁牛院士谈人工智能的发展与展望
+Thu, 04 May 2017 15:30:43 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:43 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:44 paper_url_spider.py[line:206] INFO papers:人工智能：从科学梦到新蓝海--人工智能产业发展分析及对策
+Thu, 04 May 2017 15:30:45 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:45 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:45 paper_url_spider.py[line:206] INFO papers:计算机人工智能的发展源流及曙光——评《心智、语言和机器——维特根斯坦哲学和人工智能科学的对话》
+Thu, 04 May 2017 15:30:46 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:46 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:47 paper_url_spider.py[line:206] INFO papers:遵守规则与人工智能——维特根斯坦与图灵人工智能理论的交集
+Thu, 04 May 2017 15:30:48 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:48 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:48 paper_url_spider.py[line:206] INFO papers:不确定性人工智能
+Thu, 04 May 2017 15:30:49 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:49 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:49 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:49 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:49 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:49 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:50 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:50 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:50 paper_url_spider.py[line:206] INFO papers:人工智能研究面临的两个问题——对人工智能的思考探讨
+Thu, 04 May 2017 15:30:51 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:51 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:51 paper_url_spider.py[line:206] INFO papers:论人工智能产品侵权行为责任认定——以人工智能汽车为例
+Thu, 04 May 2017 15:30:52 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:52 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:52 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:52 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:52 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:52 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:52 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:30:52 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:30:57 paper_url_spider.py[line:206] INFO papers:智能、智慧及人工智能发展问题与向超级人工智能迈进的务实发展策略
+Thu, 04 May 2017 15:30:58 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:58 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:30:58 paper_url_spider.py[line:206] INFO papers:人工智能,天使还是魔鬼?——谭铁牛院士谈人工智能的发展与展望
+Thu, 04 May 2017 15:30:59 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:30:59 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:31:00 paper_url_spider.py[line:206] INFO papers:炼金术与人工智能:休伯特·德雷福斯对人工智能发展的影响
+Thu, 04 May 2017 15:33:09 paper_url_spider.py[line:155] INFO 免费代理获取中  
+这可能花费几分钟，请稍后...
+Thu, 04 May 2017 15:33:10 paper_url_spider.py[line:166] INFO 免费代理获取完毕，总共1条。
+Thu, 04 May 2017 15:33:12 paper_url_spider.py[line:173] INFO 3774
+Thu, 04 May 2017 15:33:14 paper_url_spider.py[line:206] INFO papers:人工智能：从科学梦到新蓝海--人工智能产业发展分析及对策
+Thu, 04 May 2017 15:33:15 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:15 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:16 paper_url_spider.py[line:206] INFO papers:计算机人工智能的发展源流及曙光——评《心智、语言和机器——维特根斯坦哲学和人工智能科学的对话》
+Thu, 04 May 2017 15:33:17 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:17 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:18 paper_url_spider.py[line:206] INFO papers:遵守规则与人工智能——维特根斯坦与图灵人工智能理论的交集
+Thu, 04 May 2017 15:33:19 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:19 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:19 paper_url_spider.py[line:206] INFO papers:不确定性人工智能
+Thu, 04 May 2017 15:33:20 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:20 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:20 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:33:20 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:33:20 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:33:20 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:33:21 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:33:21 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:33:21 paper_url_spider.py[line:206] INFO papers:人工智能研究面临的两个问题——对人工智能的思考探讨
+Thu, 04 May 2017 15:33:22 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:22 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:22 paper_url_spider.py[line:206] INFO papers:论人工智能产品侵权行为责任认定——以人工智能汽车为例
+Thu, 04 May 2017 15:33:23 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:23 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:23 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:33:23 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:33:23 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:33:23 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:33:24 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:33:24 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:33:24 paper_url_spider.py[line:206] INFO papers:智能、智慧及人工智能发展问题与向超级人工智能迈进的务实发展策略
+Thu, 04 May 2017 15:33:25 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:25 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:26 paper_url_spider.py[line:206] INFO papers:人工智能,天使还是魔鬼?——谭铁牛院士谈人工智能的发展与展望
+Thu, 04 May 2017 15:33:27 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:27 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:29 paper_url_spider.py[line:206] INFO papers:人工智能：从科学梦到新蓝海--人工智能产业发展分析及对策
+Thu, 04 May 2017 15:33:30 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:30 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:30 paper_url_spider.py[line:206] INFO papers:计算机人工智能的发展源流及曙光——评《心智、语言和机器——维特根斯坦哲学和人工智能科学的对话》
+Thu, 04 May 2017 15:33:31 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:31 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:31 paper_url_spider.py[line:206] INFO papers:遵守规则与人工智能——维特根斯坦与图灵人工智能理论的交集
+Thu, 04 May 2017 15:33:32 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:32 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:32 paper_url_spider.py[line:206] INFO papers:不确定性人工智能
+Thu, 04 May 2017 15:33:33 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Thu, 04 May 2017 15:33:33 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Thu, 04 May 2017 15:33:33 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:33:33 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:33:33 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:33:33 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:33:34 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Thu, 04 May 2017 15:33:34 paper_url_spider.py[line:151] DEBUG list index out of range
+Thu, 04 May 2017 15:33:34 paper_url_spider.py[line:206] INFO papers:人工智能研究面临的两个问题——对人工智能的思考探讨

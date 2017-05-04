@@ -260,7 +260,7 @@ $(document).ready(function() {
     function log_socket(id) {
         console.log(id)
         //websocket配置
-        namespace = '/runtime_log';
+        namespace = '/patent';
 
         // Connect to the Socket.IO server.
         // The connection URL has the following format:

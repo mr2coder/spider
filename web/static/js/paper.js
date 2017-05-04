@@ -329,7 +329,7 @@ $(document).ready(function() {
     function log_socket(url) {
         //websocket配置
         console.log("dadfasd");
-        namespace = '/runtime_log';
+        namespace = '/paper';
 
         // Connect to the Socket.IO server.
         // The connection URL has the following format:
