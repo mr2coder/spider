@@ -1,11 +1,6 @@
-a = [{'a':1},{'b':2}]
-for x in a:
-	x['c'] = 3
-# b = [lambda x['c']=3:x for x in a]
+import numpy as np
 
-a = None
-b = ''
-if a:
-	print (a)
-if b:
-	print (b)
+a = np.ones((2,3))
+a[1,0] = 2
+print(a)
+print(a[1::2])
