@@ -579,3 +579,74 @@ Thu, 04 May 2017 15:42:45 video_url_spider.py[line:167] DEBUG batch op errors oc
 Thu, 04 May 2017 15:42:45 video_url_spider.py[line:145] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=俄罗斯&s_id=w00001&p=4&n=20
 Thu, 04 May 2017 15:42:46 video_url_spider.py[line:167] DEBUG batch op errors occurred
 Thu, 04 May 2017 15:42:46 video_url_spider.py[line:145] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=俄罗斯&s_id=w00001&p=5&n=20
+Fri, 05 May 2017 09:44:28 video_url_spider.py[line:202] INFO 时间规划局:tencent
+Fri, 05 May 2017 09:44:28 video_url_spider.py[line:30] INFO target site:tencent, spider begin...
+Fri, 05 May 2017 09:47:16 video_url_spider.py[line:202] INFO 时间规划局:tencent
+Fri, 05 May 2017 09:47:16 video_url_spider.py[line:30] INFO target site:tencent, spider begin...
+Fri, 05 May 2017 09:47:36 iqiyi.py[line:86] DEBUG batch op errors occurred
+Fri, 05 May 2017 09:47:56 iqiyi.py[line:86] DEBUG batch op errors occurred
+Fri, 05 May 2017 09:48:16 iqiyi.py[line:86] DEBUG batch op errors occurred
+Fri, 05 May 2017 09:55:41 video_url_spider.py[line:202] INFO 时间规划局:tencent
+Fri, 05 May 2017 09:55:42 video_url_spider.py[line:30] INFO target site:tencent, spider begin...
+Fri, 05 May 2017 09:55:43 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公在床上玩扑克牌 然后情不自禁的" }
+Fri, 05 May 2017 09:55:44 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公在床上玩扑克牌 然后情不自禁的" }
+Fri, 05 May 2017 09:55:45 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "谷阿莫：6分鐘看完《时间规划局》" }
+Fri, 05 May 2017 09:55:46 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》 电影剪辑视频" }
+Fri, 05 May 2017 09:55:47 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公玩扑克牌片段" }
+Fri, 05 May 2017 09:55:48 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》看男屌丝轻松撩获美国版 张韶涵" }
+Fri, 05 May 2017 09:55:49 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "时间规划局背景故事" }
+Fri, 05 May 2017 09:55:50 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "时间规划局 刘一秒推荐" }
+Fri, 05 May 2017 09:55:51 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》床上玩扑克牌片段！人类遗传基因只停留在25岁" }
+Fri, 05 May 2017 09:55:52 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "长生不老电影，时间规划局" }
+Fri, 05 May 2017 09:55:53 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》特辑版预告" }
+Fri, 05 May 2017 09:55:54 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公玩扑克牌片段" }
+Fri, 05 May 2017 09:55:55 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "五分钟带你看完长生不老的秘密《 时间规划局》" }
+Fri, 05 May 2017 09:55:56 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "[娱乐]【最新电影】四分钟看完电影《时间规划局》:长生不老？.m" }
+Fri, 05 May 2017 09:55:57 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "时间规划局电影预告片" }
+Fri, 05 May 2017 09:55:58 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "时间规划局" }
+Fri, 05 May 2017 09:55:59 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "时间规划局 时间就是金钱和生命 看到最后好揪心啊" }
+Fri, 05 May 2017 09:56:00 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》精彩片段1" }
+Fri, 05 May 2017 09:56:01 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公玩扑克牌片段" }
+Fri, 05 May 2017 09:56:02 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "时间管理——时间规划局" }
+Fri, 05 May 2017 09:56:03 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公玩扑克牌片段" }
+Fri, 05 May 2017 09:56:04 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【中英字幕】电影预告片-In Time(时间规划局)" }
+Fri, 05 May 2017 09:56:06 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【中英字幕】电影预告片-In Time(时间规划局)" }
+Fri, 05 May 2017 09:56:07 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "129082015285陈莹 第二次作业《时间规划局》预告片" }
+Fri, 05 May 2017 09:56:08 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "129082015285陈莹 第二次作业《时间规划局》预告片" }
+Fri, 05 May 2017 09:56:09 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》特辑版预告" }
+Fri, 05 May 2017 09:56:11 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "长生不老电影，时间规划局" }
+Fri, 05 May 2017 09:56:12 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "25岁后不再衰老《时间规划局》中文国际版剧场预告" }
+Fri, 05 May 2017 09:56:13 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》当时间变成货币，穷人能活多久？" }
+Fri, 05 May 2017 09:56:14 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》当时间变成货币，穷人能活多久？" }
+Fri, 05 May 2017 09:56:15 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》小天王贾斯汀剧照曝光" }
+Fri, 05 May 2017 09:56:16 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》小天王贾斯汀剧照曝光" }
+Fri, 05 May 2017 09:56:17 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公玩扑克牌片段   这才是撩妹高手" }
+Fri, 05 May 2017 09:56:18 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》床上玩扑克牌片段！人类遗传基因只停留在25岁" }
+Fri, 05 May 2017 09:56:19 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "五分钟带你看完长生不老的秘密《 时间规划局》" }
+Fri, 05 May 2017 09:56:20 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公玩扑克牌片段" }
+Fri, 05 May 2017 09:56:21 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "时间规划局电影预告片" }
+Fri, 05 May 2017 09:56:22 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "时间规划局" }
+Fri, 05 May 2017 09:56:23 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "未来世界时间变商品《时间规划局》国际版预告片" }
+Fri, 05 May 2017 09:56:24 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "129082015285陈莹 第二次作业《时间规划局》预告片" }
+Fri, 05 May 2017 09:56:25 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "129082015285陈莹 第二次作业《时间规划局》预告片" }
+Fri, 05 May 2017 09:56:26 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》高清正式版预告" }
+Fri, 05 May 2017 09:56:27 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "未来，人可以长生不老！神电影《时间规划局》" }
+Fri, 05 May 2017 09:56:28 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公玩扑克牌片段   这才是撩妹高手" }
+Fri, 05 May 2017 09:56:29 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》当时间变成货币，穷人能活多久？" }
+Fri, 05 May 2017 09:56:30 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》当时间变成货币，穷人能活多久？" }
+Fri, 05 May 2017 09:56:31 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "25岁后不再衰老《时间规划局》中文国际版剧场预告" }
+Fri, 05 May 2017 09:56:32 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "时间规划局" }
+Fri, 05 May 2017 09:56:33 iqiyi.py[line:86] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "时间规划局" }
+Fri, 05 May 2017 09:57:39 video_url_spider.py[line:202] INFO 时间规划局:tencent
+Fri, 05 May 2017 09:57:39 video_url_spider.py[line:30] INFO target site:tencent, spider begin...
+Fri, 05 May 2017 09:57:40 iqiyi.py[line:87] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公在床上玩扑克牌 然后情不自禁的" }
+Fri, 05 May 2017 09:57:41 iqiyi.py[line:87] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公在床上玩扑克牌 然后情不自禁的" }
+Fri, 05 May 2017 09:57:42 iqiyi.py[line:87] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "谷阿莫：6分鐘看完《时间规划局》" }
+Fri, 05 May 2017 10:00:13 video_url_spider.py[line:202] INFO 时间规划局:tencent
+Fri, 05 May 2017 10:00:13 video_url_spider.py[line:30] INFO target site:tencent, spider begin...
+Fri, 05 May 2017 10:01:06 video_url_spider.py[line:202] INFO 时间规划局:qq
+Fri, 05 May 2017 10:01:06 video_url_spider.py[line:30] INFO target site:qq, spider begin...
+Fri, 05 May 2017 10:01:08 iqiyi.py[line:87] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公在床上玩扑克牌 然后情不自禁的" }
+Fri, 05 May 2017 10:01:18 iqiyi.py[line:87] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公玩扑克牌片段" }
+Fri, 05 May 2017 10:01:25 iqiyi.py[line:87] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》男女主人公玩扑克牌片段" }
+Fri, 05 May 2017 10:01:34 iqiyi.py[line:87] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "宅男电台NO.26——时间规划局" }

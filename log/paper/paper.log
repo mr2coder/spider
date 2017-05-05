@@ -539,3 +539,20 @@ Thu, 04 May 2017 15:33:33 paper_url_spider.py[line:151] DEBUG list index out of 
 Thu, 04 May 2017 15:33:34 paper_url_spider.py[line:150] DEBUG 论文解析失败..
 Thu, 04 May 2017 15:33:34 paper_url_spider.py[line:151] DEBUG list index out of range
 Thu, 04 May 2017 15:33:34 paper_url_spider.py[line:206] INFO papers:人工智能研究面临的两个问题——对人工智能的思考探讨
+Fri, 05 May 2017 10:04:06 paper_url_spider.py[line:155] INFO 免费代理获取中  
+这可能花费几分钟，请稍后...
+Fri, 05 May 2017 10:04:07 paper_url_spider.py[line:166] INFO 免费代理获取完毕，总共1条。
+Fri, 05 May 2017 10:04:09 paper_url_spider.py[line:173] INFO 21209
+Fri, 05 May 2017 10:04:12 paper_url_spider.py[line:206] INFO papers:数据挖掘与应用统计现状及趋势研究 ——第八届国际数据挖掘与应用统计研究会年会学术综述
+Fri, 05 May 2017 10:04:13 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Fri, 05 May 2017 10:04:13 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Fri, 05 May 2017 10:04:13 paper_url_spider.py[line:206] INFO papers:基于数据挖掘建模语言的数据挖掘系统设计
+Fri, 05 May 2017 10:04:14 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Fri, 05 May 2017 10:04:14 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Fri, 05 May 2017 10:04:14 paper_url_spider.py[line:206] INFO papers:数据挖掘综述
+Fri, 05 May 2017 10:04:15 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Fri, 05 May 2017 10:04:15 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Fri, 05 May 2017 10:04:15 paper_url_spider.py[line:206] INFO papers:探讨数据挖掘应对金融危机——第二届金融数据挖掘研讨会简述
+Fri, 05 May 2017 10:04:16 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Fri, 05 May 2017 10:04:16 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Fri, 05 May 2017 10:04:16 paper_url_spider.py[line:206] INFO papers:数据挖掘中的数据分类算法综述

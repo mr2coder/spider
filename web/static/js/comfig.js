@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#add-set").click(function(){
+   $("#add-set").click(function(){
   $("#btn_file").click()
   
 }); 

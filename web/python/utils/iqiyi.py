@@ -3,7 +3,7 @@ from lxml import html
 import re,time,datetime
 import argparse
 import fetch_free_proxyes as fproxy
-import random
+import random,os
 from bson.objectid import ObjectId
 
 #add sys.path
@@ -72,18 +72,19 @@ def iqiyi_url_spider(content,site='iqiyi',socketio=None):
 	page_num = max((page_num+19)//20,20)
 	for index in range(1,page_num+1):
 		result = get_page_info(content,site,pagenum=index)
+		mongoDB = mongoConnection.mongoConnection(db='video',collection='urlinfo')
 		if socketio:
 			for line in result:
 				socketio.emit('my_response',
 					{'data': 'Currently crawling title is: '+line['videoname']},
 					namespace='/video')
 				socketio.sleep(1)
-		mongoDB = mongoConnection.mongoConnection(db='video',collection='urlinfo')
-		try:
-			infomation_id = mongoDB.collection.insert_many(result, ordered=False)
-			mongoDB.db['spider'].update({'site':'sina','content':content},{'$set':{'inactive':0}})
-		except Exception as e:
-			logger.debug(e)
+				try:
+					print(line)
+					infomation_id = mongoDB.collection.insert(line)
+					mongoDB.db['spider'].update({'site':site,'content':content},{'$set':{'inactive':0}})
+				except Exception as e:
+					logger.debug(e)
 
 
 
