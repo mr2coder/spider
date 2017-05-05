@@ -8,6 +8,7 @@ import re,time,datetime
 from multiprocessing.dummy import Pool as ThreadPool	
 import argparse
 import os
+from iqiyi import *
 
 
 #add sys.path
@@ -29,14 +30,24 @@ def url_spider(kwargs,socketio=None):
 	logger.info('target site:{}, spider begin...'.format(kwargs['site']))
 	if 'youtube' in kwargs['site']:
 		youtube_url_spider(kwargs['content'],socketio=socketio)
-	if 'bilibili' in kwargs['site']:
-		bilibili_url_spider(kwargs['content'],socketio=socketio)
-	if 'youku' in kwargs['site']:
-		youku_url_spider(kwargs['content'],socketio=socketio)
 	if 'sina' in kwargs['site']:
 		sina_url_spider(kwargs['content'],socketio=socketio)
+	if 'bilibili' in kwargs['site']:
+		iqiyi_url_spider(kwargs['content'],site='bilibili',socketio=socketio)
+	if 'youku' in kwargs['site']:
+		iqiyi_url_spider(kwargs['content'],site='youku',socketio=socketio)
 	if 'iqiyi' in kwargs['site']:
 		iqiyi_url_spider(kwargs['content'],socketio=socketio)
+	if 'tencent' in kwargs['site']:
+		iqiyi_url_spider(kwargs['content'],site='qq',socketio=socketio)
+	if 'acfun' in kwargs['site']:
+		iqiyi_url_spider(kwargs['content'],site='acfun',socketio=socketio)
+	if 'ifeng' in kwargs['site']:
+		iqiyi_url_spider(kwargs['content'],site='ifeng',socketio=socketio)
+	if 'cntv' in kwargs['site']:
+		iqiyi_url_spider(kwargs['content'],site='cntv',socketio=socketio)
+	if 'm1905' in kwargs['site']:
+		iqiyi_url_spider(kwargs['content'],site='m1905',socketio=socketio)
 
 
 def youtube_url_spider(content,socketio=None):
