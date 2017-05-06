@@ -3,6 +3,8 @@ from web import app
 from flask import request, session, g, redirect, url_for, abort, render_template, flash, jsonify
 #from web.python.paper import models
 from datetime import datetime
+import time
+import os
 
 @app.route('/config')
 def config():
@@ -31,7 +33,7 @@ def open_file():
 	print(site)
 	site = site.replace("\\", '/')
 	print(site)
-	filename = '/home/zjun/Desktop/MyCode/yang/web/templates/config/abc.txt' # txt文件和当前脚本在同一目录下，所以不用写具体路径
+	filename = '/www/testgit/log/paper/te.txt' # txt文件和当前脚本在同一目录下，所以不用写具体路径
 	
 	pos = []
 	Efield = []
@@ -44,12 +46,50 @@ def open_file():
 			# 			break
 			# 			pass
 			# 		file_content.append(lines)
-			file_content = file_to_read.read() 
+			file_content = file_to_read.read()
 		print(file_content.strip())
 		return file_content.strip()
 	except Exception as e :
 		print(str(e))
 		return "hello world"
+
+@app.route('/check_note' ,methods=['POST'])
+def check_note():
+
+	#paper spider setting
+	#site = str(request.form.get('site')).replace("\"", '/')
+	#site='/paper/index.html'
+	#return render_template(site)
+	Basedir=os.path.abspath('.')
+	localtime = str(request.form.get('time'))
+	note = str(request.form.get('note'))
+	temptime=time.strftime('%Y-%m-%d',time.localtime(time.time()))
+	
+	if temptime == localtime:
+		if note == "paper":
+			filename = Basedir+"/../"+"log/paper/paper.log"
+		elif note == "patent":
+			filename = Basedir+"/../"+"log/patent/patent.log"
+		else:
+			filename = Basedir+"/../"+"log/video/video.log"
+	else:
+		if note == "paper":
+			filename = Basedir+"/../"+"log/paper/paper.log."+str(localtime)
+		elif note == "patent":
+			filename = Basedir+"/../"+"log/patent/patent.log."+str(localtime)
+		else:
+			filename = Basedir+"/../"+"log/video/video.log."+str(localtime)		
+	pos = []
+	Efield = []
+	file_content = []
+	try:
+		with open(filename,'rb') as file_to_read:
+			file_content = file_to_read.read().decode('utf-8','ignore') 
+		print(file_content.strip())
+		return file_content.strip()
+	except Exception as e :
+		print(str(e))
+		return "none"
 
 
 

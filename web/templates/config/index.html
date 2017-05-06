@@ -13,8 +13,6 @@ $("#btn_file").change(function(){
 {
 document.getElementById("btn_file").click();
 }*/
-
-  
 </script>
 <header class="codrops-header" style=" margin: 0 auto 0;">
     <h1>爬虫配置</h1>
@@ -135,7 +133,7 @@ document.getElementById("btn_file").click();
                     <div class="form-group">
                         <span for="basic2" class="col-lg-2 control-label"></span>
                         <div class="col-lg-6 col-lg-offset-4">
-                            <button id='add' data-effect="st-effect-1" style="color:#fff">添加至任务</button>
+                            <button type="button" id='add' data-effect="st-effect-1" style="color:#fff">添加至任务</button>
                         </div>
                     </div>
                     </form>
@@ -157,7 +155,7 @@ document.getElementById("btn_file").click();
                     <div class="form-group">
                         <span for="basic2" class="col-lg-2 control-label">日期选择</span>
                         <div class="col-lg-10">
-                            <input type="date" id="note" style="height:30px">
+                            <input type="date" id="note_time" name="time" style="height:30px">
                         </div>
                     </div>
                 </form>  
@@ -165,10 +163,10 @@ document.getElementById("btn_file").click();
                     <div class="form-group">
                         <span for="basic2" class="col-lg-2 control-label">日志类型</span>
                         <div class="col-lg-10 ">
-                            <select name='note' id='note' class="selectpicker">
-                                <option value="once">视频日志文件</option>
-                                <option value="week">论文日志文件</option>
-                                <option value="month">新闻日志文件</option>
+                            <select  id='note_type' name='note'  class="selectpicker">
+                                <option value="video">视频日志文件</option>
+                                <option value="paper">论文日志文件</option>
+                                <option value="patent">专利日志文件</option>
                             </select>
                         </div>
                     </div>
@@ -177,13 +175,31 @@ document.getElementById("btn_file").click();
                     <div class="form-group">
                         <span for="basic2" class="col-lg-2 control-label"></span>
                         <div class="col-lg-10">
-                            <button id='add_note' data-effect="st-effect-1" style="color:#fff">导入日志文件</button>
+                            <button type="button" id='add_note' data-effect="st-effect-1" style="color:#fff">查看日志文件</button>
+                         
                         </div>
+                        
                     </div>
                 </form>
             </div>
             </div>
             <div class="panel-footer">
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="paperModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">日志文件显示</h4>
+                </div>
+                <div id="log" class="modal-body" style="height: 650px;overflow-y: auto;">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary" id="disconnect">停止运行</button>
+                </div>
             </div>
         </div>
     </div>

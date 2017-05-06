@@ -1,5 +1,5 @@
 $(document).ready(function(){
-   $("#add-set").click(function(){
+    $("#add-set").click(function(){
   $("#btn_file").click()
   
 }); 
@@ -7,9 +7,30 @@ $(document).ready(function(){
     var site=$("#btn_file").val();
     console.log("222"+site)
     if (site!="") 
-        {window.open("http://10.108.219.219:5000/test","_blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400,left=400,top=200")};
+        {window.open("http://localhost/test","_blank","toolbar=no, location=yes, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=yes, width=400, height=400,left=400,top=200")};
             $("#btn_file").val("");
             });
+
+   $("#add_note").click(function(){
+   	console.log("hgfgffhg")
+    	time = $('input[name="time"]').val();
+        note = $('select[name="note"]').val();
+
+       console.log(time)
+         $.post('/check_note', {
+            time:time,
+            note:note
+        },function(responseTxt){
+        var strHTML="";
+        var str = responseTxt.split('\n');
+        $.each(str,function(i,val)
+              {
+                  strHTML+=val+'<br>';
+              });
+        $("#log").html(strHTML);
+        $("#paperModal").modal('show')
+       });
+    });
 
  });
 
