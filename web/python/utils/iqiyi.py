@@ -68,11 +68,15 @@ def get_page_info(content,site,time_limt='level0',length='level1',pagenum=1):
 
 
 def iqiyi_url_spider(content,site='iqiyi',socketio=None):
-	page_num = get_page_nums(content,site)
-	page_num = max((page_num+19)//20,20)
+	mongoDB = mongoConnection.mongoConnection(db='video',collection='spider')
+	data = list(mongoDB.collection.find({'content':content,'site':site},{'time_limit':1,'_id':0,'length':1}))[0]
+	print(data)
+	page_num = get_page_nums(content,site,time_limt=data['time_limit'],length=data['length'])
+	page_num = min((page_num+19)//20,20)
+
+	mongoDB = mongoConnection.mongoConnection(db='video',collection='urlinfo')
 	for index in range(1,page_num+1):
-		result = get_page_info(content,site,pagenum=index)
-		mongoDB = mongoConnection.mongoConnection(db='video',collection='urlinfo')
+		result = get_page_info(content,site,time_limt=data['time_limit'],length=data['length'],pagenum=index)
 		if socketio:
 			for line in result:
 				socketio.emit('my_response',
@@ -85,15 +89,17 @@ def iqiyi_url_spider(content,site='iqiyi',socketio=None):
 					mongoDB.db['spider'].update({'site':site,'content':content},{'$set':{'inactive':0}})
 				except Exception as e:
 					logger.debug(e)
+			socketio.emit('my_response', {'data': '已完成'},namespace='/video')
+			socketio.emit('disconnect', {'data': 'disconnect'},namespace='/video')
 
 
 
 
 
 if __name__ == '__main__':
-	result = get_page_info('金正恩','qq')
+	result = get_page_info('时间规划局','cntv')
 	print(len(result))
-	iqiyi_url_spider('金正恩','qq')
+	iqiyi_url_spider('时间规划局','cntv')
 	# print(result)
 
 

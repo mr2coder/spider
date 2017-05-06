@@ -62,7 +62,7 @@ $(document).ready(function() {
         feq = $('select[name="feq"]').val();
         len = $('select[name="len"]').val();
         time_limit = $('select[name="time_limit"]').val();
-
+        console.log(len,time_limit);
         site = JSON.stringify(site)
         if (content == '') {
             alert('内容不能为空！');
