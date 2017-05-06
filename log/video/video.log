@@ -94,3 +94,70 @@ Sat, 06 May 2017 17:08:49 iqiyi.py[line:91] DEBUG insertDocument :: caused by ::
 Sat, 06 May 2017 17:08:50 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "汪汪队立大功工程车推土机玩具 狗狗巡逻队挖掘机工作视频" }
 Sat, 06 May 2017 17:08:54 video_url_spider.py[line:202] INFO 时间规划局:cntv
 Sat, 06 May 2017 17:08:54 video_url_spider.py[line:30] INFO target site:cntv, spider begin...
+Sat, 06 May 2017 17:22:03 video_url_spider.py[line:202] INFO 时间规划局:youku
+Sat, 06 May 2017 17:22:03 video_url_spider.py[line:30] INFO target site:youku, spider begin...
+Sat, 06 May 2017 17:22:32 video_url_spider.py[line:202] INFO 时间规划局:youku
+Sat, 06 May 2017 17:22:32 video_url_spider.py[line:30] INFO target site:youku, spider begin...
+Sat, 06 May 2017 17:22:33 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "视频: 《时间规划局》男女主人公玩扑克牌片段 电影剪辑视频" }
+Sat, 06 May 2017 17:22:34 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "美国科幻片《时间规划局》，女主超漂亮" }
+Sat, 06 May 2017 17:22:35 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "视频: 时间规划局 片段2" }
+Sat, 06 May 2017 17:22:36 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "视频: 《时间规划局》中文访谈特辑 www.hy7.net" }
+Sat, 06 May 2017 17:22:39 video_url_spider.py[line:202] INFO 时间规划局:cntv
+Sat, 06 May 2017 17:22:39 video_url_spider.py[line:30] INFO target site:cntv, spider begin...
+Sat, 06 May 2017 17:24:16 video_url_spider.py[line:202] INFO 时间规划局:ifeng
+Sat, 06 May 2017 17:24:16 video_url_spider.py[line:30] INFO target site:ifeng, spider begin...
+Sat, 06 May 2017 17:24:18 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》：生命长度取决于个人财富" }
+Sat, 06 May 2017 17:24:19 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《时间规划局》剧情简介" }
+Sat, 06 May 2017 20:04:38 video_download.py[line:45] INFO success http://video.sina.com.cn/view/249548276.html
+Sat, 06 May 2017 20:04:50 video_download.py[line:45] INFO success http://video.sina.com.cn/view/249605108.html
+Sat, 06 May 2017 20:05:07 video_download.py[line:45] INFO success http://video.sina.com.cn/view/249702644.html
+Sat, 06 May 2017 20:05:09 video_download.py[line:45] INFO success http://video.sina.com.cn/view/249756660.html
+Sat, 06 May 2017 20:05:14 video_download.py[line:45] INFO success http://video.sina.com.cn/view/249773556.html
+Sat, 06 May 2017 20:05:17 video_download.py[line:45] INFO success http://video.sina.com.cn/view/203449970.html
+Sat, 06 May 2017 20:05:18 video_download.py[line:45] INFO success http://video.sina.com.cn/view/200284276.html
+Sat, 06 May 2017 20:05:21 video_download.py[line:45] INFO success http://video.sina.com.cn/view/202715508.html
+Sat, 06 May 2017 20:05:22 video_download.py[line:45] INFO success http://video.sina.com.cn/view/202731124.html
+Sat, 06 May 2017 20:05:25 video_download.py[line:45] INFO success http://video.sina.com.cn/view/202737780.html
+Sat, 06 May 2017 20:05:26 video_download.py[line:45] INFO success http://video.sina.com.cn/view/202766708.html
+Sat, 06 May 2017 20:05:30 video_download.py[line:45] INFO success http://video.sina.com.cn/view/200525207.html
+Sat, 06 May 2017 20:05:31 video_download.py[line:45] INFO success http://video.sina.com.cn/view/202443159.html
+Sat, 06 May 2017 20:05:37 video_download.py[line:45] INFO success http://video.sina.com.cn/view/202477975.html
+Sat, 06 May 2017 20:05:39 video_download.py[line:45] INFO success http://video.sina.com.cn/view/247309556.html
+Sat, 06 May 2017 20:05:42 video_download.py[line:45] INFO success http://video.sina.com.cn/view/247391988.html
+Sat, 06 May 2017 20:08:40 video_url_spider.py[line:202] INFO 数据挖掘:youku
+Sat, 06 May 2017 20:08:40 video_url_spider.py[line:30] INFO target site:youku, spider begin...
+Sat, 06 May 2017 20:08:41 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "超级飞侠3公交车水泥搅拌机工程车玩具 挖掘机工作视频" }
+Sat, 06 May 2017 20:08:42 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "重型消防车 挖掘机工作超长视频表演大全 工程车 消防车 铲车 推土机 汽车 挖土机玩具视频.mp4" }
+Sat, 06 May 2017 20:08:43 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "汪汪队立大功工程车推土机玩具 狗狗巡逻队挖掘机工作视频" }
+Sat, 06 May 2017 20:10:17 video_url_spider.py[line:202] INFO 数据挖掘:youku
+Sat, 06 May 2017 20:10:17 video_url_spider.py[line:30] INFO target site:youku, spider begin...
+Sat, 06 May 2017 20:10:18 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "超级飞侠3公交车水泥搅拌机工程车玩具 挖掘机工作视频" }
+Sat, 06 May 2017 20:10:19 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "重型消防车 挖掘机工作超长视频表演大全 工程车 消防车 铲车 推土机 汽车 挖土机玩具视频.mp4" }
+Sat, 06 May 2017 20:10:20 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "汪汪队立大功工程车推土机玩具 狗狗巡逻队挖掘机工作视频" }
+Sat, 06 May 2017 20:10:24 video_url_spider.py[line:202] INFO 数据挖掘:youku
+Sat, 06 May 2017 20:10:24 video_url_spider.py[line:30] INFO target site:youku, spider begin...
+Sat, 06 May 2017 20:10:25 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "超级飞侠3公交车水泥搅拌机工程车玩具 挖掘机工作视频" }
+Sat, 06 May 2017 20:10:26 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "重型消防车 挖掘机工作超长视频表演大全 工程车 消防车 铲车 推土机 汽车 挖土机玩具视频.mp4" }
+Sat, 06 May 2017 20:10:27 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "汪汪队立大功工程车推土机玩具 狗狗巡逻队挖掘机工作视频" }
+Sat, 06 May 2017 20:10:28 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频汽车总动员 赛车总动员 变形警车珀利 拖车汤姆5" }
+Sat, 06 May 2017 20:10:30 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "工程车挖掘机动画 最新挖掘机动画视频 叉车驾驶员操作" }
+Sat, 06 May 2017 20:12:06 video_url_spider.py[line:202] INFO 数据挖掘:youku
+Sat, 06 May 2017 20:12:06 video_url_spider.py[line:30] INFO target site:youku, spider begin...
+Sat, 06 May 2017 20:12:07 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "超级飞侠3公交车水泥搅拌机工程车玩具 挖掘机工作视频" }
+Sat, 06 May 2017 20:12:08 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "重型消防车 挖掘机工作超长视频表演大全 工程车 消防车 铲车 推土机 汽车 挖土机玩具视频.mp4" }
+Sat, 06 May 2017 20:12:09 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "汪汪队立大功工程车推土机玩具 狗狗巡逻队挖掘机工作视频" }
+Sat, 06 May 2017 20:12:10 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频汽车总动员 赛车总动员 变形警车珀利 拖车汤姆5" }
+Sat, 06 May 2017 20:12:16 video_url_spider.py[line:202] INFO 数据挖掘:youku
+Sat, 06 May 2017 20:12:16 video_url_spider.py[line:30] INFO target site:youku, spider begin...
+Sat, 06 May 2017 20:12:17 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "超级飞侠3公交车水泥搅拌机工程车玩具 挖掘机工作视频" }
+Sat, 06 May 2017 20:12:18 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "重型消防车 挖掘机工作超长视频表演大全 工程车 消防车 铲车 推土机 汽车 挖土机玩具视频.mp4" }
+Sat, 06 May 2017 20:12:19 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "汪汪队立大功工程车推土机玩具 狗狗巡逻队挖掘机工作视频" }
+Sat, 06 May 2017 20:12:20 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频汽车总动员 赛车总动员 变形警车珀利 拖车汤姆5" }
+Sat, 06 May 2017 20:12:24 video_url_spider.py[line:202] INFO 数据挖掘:youku
+Sat, 06 May 2017 20:12:24 video_url_spider.py[line:30] INFO target site:youku, spider begin...
+Sat, 06 May 2017 20:12:25 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "超级飞侠3公交车水泥搅拌机工程车玩具 挖掘机工作视频" }
+Sat, 06 May 2017 20:12:26 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "重型消防车 挖掘机工作超长视频表演大全 工程车 消防车 铲车 推土机 汽车 挖土机玩具视频.mp4" }
+Sat, 06 May 2017 20:12:27 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "汪汪队立大功工程车推土机玩具 狗狗巡逻队挖掘机工作视频" }
+Sat, 06 May 2017 20:12:28 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频汽车总动员 赛车总动员 变形警车珀利 拖车汤姆5" }
+Sat, 06 May 2017 20:12:29 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全1挖土机玩具视频 汽车总动员 赛车总动员 变形警车 迷你卡车10" }
+Sat, 06 May 2017 20:12:30 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "工程车挖掘机动画 最新挖掘机动画视频 叉车驾驶员操作" }

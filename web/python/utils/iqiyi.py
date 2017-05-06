@@ -72,8 +72,8 @@ def iqiyi_url_spider(content,site='iqiyi',socketio=None):
 	data = list(mongoDB.collection.find({'content':content,'site':site},{'time_limit':1,'_id':0,'length':1}))[0]
 	print(data)
 	page_num = get_page_nums(content,site,time_limt=data['time_limit'],length=data['length'])
+	if socketio:socketio.emit('my_response', {'data': '总数为:'+str(page_num)},namespace='/video')
 	page_num = min((page_num+19)//20,20)
-
 	mongoDB = mongoConnection.mongoConnection(db='video',collection='urlinfo')
 	for index in range(1,page_num+1):
 		result = get_page_info(content,site,time_limt=data['time_limit'],length=data['length'],pagenum=index)

@@ -6,3 +6,5 @@ venv/
 __pycahche__/
 *.ini
 *.conf
+*.flv
+*.mp4

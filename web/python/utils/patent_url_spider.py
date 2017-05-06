@@ -137,6 +137,10 @@ def click(url,content,socketio=None,proxy=False):
 	logger.info(num)
 	mongo = mongoConnection.mongoConnection(db='patent',collection='patentinfo')
 	i = 1
+	if not num and socketio:
+		socketio.emit('my_response', {'data': '目标网站连接失败,请稍后重试!'},namespace='/patent')
+		socketio.emit('disconnect', {'data': 'disconnect'},namespace='/patent')
+		return
 	while i<= num:
 		failed_tag = 0
 		attempt = 0
