@@ -223,10 +223,11 @@ def auto_click(id,socketio=None,proxy=False):
 	content = list(mongo.collection.find({'_id':ObjectId(id)}))
 	content = content[0]
 	url = URL
-	socketio.emit('my_response',
-			{'data': URL},
-			namespace='/patent')
-	socketio.sleep(1)
+	if socketio:
+		socketio.emit('my_response',
+				{'data': URL},
+				namespace='/patent')
+		socketio.sleep(1)
 	click(url,content,socketio=socketio,proxy=proxy)
 
 def main():

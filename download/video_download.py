@@ -9,7 +9,6 @@ import time,random
 import logging.config
 path = os.path.abspath(__file__).replace('\\','/').split('/')
 logfile = os.path.join( '/'.join(path[:-2]),"logger.conf")
-print(logfile)
 logging.config.fileConfig(logfile)
 logger = logging.getLogger("video")
 
