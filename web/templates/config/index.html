@@ -1,18 +1,7 @@
 {% extends "layout.html" %} {% block body %}
 <script src="{{url_for('static',filename='js/comfig.js')}}"></script>
+<script type="text/javascript" src="static/js/FileSaver.js" charset="utf-8"></script>
 <script type="text/javascript">
-/*$(document).ready(function(){
-$("#btn_file").change(function(){
-    var site=$("#btn_file").val();
-    console.log("222"+site)
-    if (site!="") 
-        {window.open("{{url_for('test')}}","_blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400,left=400,top=200")};
-            });
- });
-          function F_Open_dialog()
-{
-document.getElementById("btn_file").click();
-}*/
 </script>
 <header class="codrops-header" style=" margin: 0 auto 0;">
     <h1>爬虫配置</h1>
@@ -29,7 +18,7 @@ document.getElementById("btn_file").click();
                     <div class="form-group">
                         <span for="basic2" class="col-lg-2 control-label">日期选择</span>
                         <div class="col-lg-10">
-                            <select name='date' id='date' class="selectpicker" >
+                            <select name='day' id='date' class="selectpicker" >
                             <option value="one">1</option>
                             <option value="two">2</option>
                             <option value="there">3</option>
@@ -78,7 +67,7 @@ document.getElementById("btn_file").click();
                     <div class="form-group">
                         <span for="basic2" class="col-lg-2 control-label">时间选择</span>
                         <div class="col-lg-10">
-                        <select name='time' id='time' class="selectpicker">
+                        <select name='hour' id='time' class="selectpicker">
                             <option value="0">0</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -198,7 +187,6 @@ document.getElementById("btn_file").click();
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                    <button type="button" class="btn btn-primary" id="disconnect">停止运行</button>
                 </div>
             </div>
         </div>

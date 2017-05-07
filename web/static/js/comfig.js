@@ -10,6 +10,19 @@ $(document).ready(function(){
         {window.open("http://localhost/test","_blank","toolbar=no, location=yes, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=yes, width=400, height=400,left=400,top=200")};
             $("#btn_file").val("");
             });
+    $("#add").click(function(){
+      day = $('select[name="day"]').val();
+      week = $('select[name="week"]').val();
+      hour = $('select[name="hour"]').val();
+      site = $('input[name="site"]').val();
+          $.post('/congif_file', {
+            day:day,
+            week:week,
+            hour:hour,
+            site:site
+        })
+          console.log("nihao")
+    })
 
    $("#add_note").click(function(){
    	console.log("hgfgffhg")

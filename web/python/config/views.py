@@ -64,7 +64,7 @@ def check_note():
 	localtime = str(request.form.get('time'))
 	note = str(request.form.get('note'))
 	temptime=time.strftime('%Y-%m-%d',time.localtime(time.time()))
-	
+	print(localtime)
 	if temptime == localtime:
 		if note == "paper":
 			filename = Basedir+"/../"+"log/paper/paper.log"
@@ -91,7 +91,24 @@ def check_note():
 		print(str(e))
 		return "none"
 
-
+@app.route('/congif_file' ,methods=['POST'])
+def congif_file():
+	Basedir=os.path.abspath('.')
+	filename = Basedir+"/../"+"config.conf"
+	f = open(filename, "w")
+	print(filename)
+	day = str(request.form.get('day'))
+	week = str(request.form.get('week'))
+	hour = str(request.form.get('hour'))
+	site = str(request.form.get('site'))
+	print(day)
+	print(week)
+	print(hour)
+	print(site)
+	data = "[day]\n"+day+"\n"+"[week]\n"+week+"\n"+"[hour]\n"+hour+"\n"+"[site]\n"+site
+	f.write(data)
+	f.close()
+	return "none"
 
 if __name__ == '__main__':
 	app.secret_key = 'super secret key'
