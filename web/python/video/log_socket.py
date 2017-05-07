@@ -31,7 +31,7 @@ def disconnect_request():
 	if back_thread!=None:
 		back_thread.kill()
 		back_thread = None
-	emit('disconnect', {'data': 'disconnect', 'count': 0})
+	emit('disconnect', {'data': 'disconnect'})
 	print('my name is video')
 	disconnect()
 	

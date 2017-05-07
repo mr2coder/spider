@@ -14,9 +14,9 @@ $(document).ready(function() {
             data[i]['more'] = '<button type="button" style="float: left;" name="more" class="more" data-dismiss="alert" >' + '<span class="glyphicon glyphicon-stats"  aria-hidden="true"></span></button>';
             data[i]['update'] = '<button type="button" style="float: left;" id="download" name="download" class="more" data-toggle="modal" data-target="#paperModal"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>';
             if (data[i]['inactive'] == 1) {
-                data[i]['inactive'] = '是'
-            } else {
                 data[i]['inactive'] = '否'
+            } else {
+                data[i]['inactive'] = '是'
             }
         }
         $('#already_exist').DataTable({
@@ -62,7 +62,7 @@ $(document).ready(function() {
         feq = $('select[name="feq"]').val();
         len = $('select[name="len"]').val();
         time_limit = $('select[name="time_limit"]').val();
-
+        console.log(len,time_limit);
         site = JSON.stringify(site)
         if (content == '') {
             alert('内容不能为空！');
@@ -321,6 +321,7 @@ $(document).ready(function() {
     function log_socket(content, site) {
         //websocket配置
         namespace = '/video';
+        $("#disconnect").attr("disabled", false);
 
         // Connect to the Socket.IO server.
         // The connection URL has the following format:
@@ -351,6 +352,7 @@ $(document).ready(function() {
     $('#disconnect').on('click', function() {
         connect_tag = false;
         socket.disconnect();
+        $("#disconnect").attr("disabled", true); 
 
     });
 

@@ -44,17 +44,17 @@
                         <span for="basic2" class="col-lg-2 control-label">站点选择</span>
                         <div class="col-lg-10">
                             <select name='site' id='site' class="selectpicker" multiple data-live-search="true" data-actions-box="true" data-width="75%">
-                                <option value="sina">sina</option>
-                                <option value="youku">youku</option>
-                                <option value="qq">tencent</option>
-                                <option value="iqiyi">iqiyi</option>
-                                <option value="tudou">tudou</option>
-                                <option value="souhu">souhu</option>
-                                <option value="cntv">cntv</option>
-                                <option value="m1905">m1905</option>
-                                <option value="ifeng">ifeng</option>
-                                <option value="bilibili">bilibili</option>
-                                <option value="acfun">acfun</option>
+                                <option value="sina">新浪视频</option>
+                                <option value="youku">优酷</option>
+                                <option value="qq">腾讯视频</option>
+                                <option value="iqiyi">爱奇艺</option>
+                                <option value="tudou">土豆</option>
+                                <option value="souhu">搜狐视频</option>
+                                <option value="cntv">央视网</option>
+                                <!-- <option value="m1905">m1905</option> -->
+                                <option value="ifeng">凤凰视频</option>
+                                <option value="bilibili">哔哩哔哩</option>
+                                <option value="acfun">AcFun</option>
                             </select>
                         </div>
                     </div>
@@ -63,6 +63,7 @@
                         <div class="col-lg-10">
                             <select name='feq' id='feq' class="selectpicker">
                                 <option value="once">仅一次</option>
+                                <option value="day">每天</option>
                                 <option value="week">每周</option>
                                 <option value="month">每月</option>
                             </select>
@@ -84,11 +85,11 @@
                         <span for="basic2" class="col-lg-2 control-label">时间设置</span>
                         <div class="col-lg-10">
                             <select name='time_limit' id='time_limit' class="selectpicker">
-                                <option value="nolimit">不限</option>
-                                <option value="day">一天</option>
-                                <option value="week">一周</option>
-                                <option value="month">一月</option>
-                                <option value="year">一年</option>
+                                <option value="level0">不限</option>
+                                <option value="level1">一天</option>
+                                <option value="level2">一周</option>
+                                <option value="level3">一月</option>
+                                <option value="level4">一年</option>
                             </select>
                         </div>
                     </div>
@@ -99,9 +100,10 @@
                         <span for="basic2" class="col-lg-2 control-label">视频时间</span>
                         <div class="col-lg-10">
                             <select name='len' id='len' class="selectpicker">
-                                <option value="10">10分钟</option>
-                                <option value="20">20分钟</option>
-                                <option value="30">30分钟</option>
+                                <option value="level1">10分钟</option>
+                                <option value="level2">20分钟</option>
+                                <option value="level3">30分钟</option>
+                                <option value="level0">不限</option>
                             </select>
                         </div>
                     </div>

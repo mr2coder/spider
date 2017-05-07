@@ -137,6 +137,10 @@ def click(url,content,socketio=None,proxy=False):
 	logger.info(num)
 	mongo = mongoConnection.mongoConnection(db='patent',collection='patentinfo')
 	i = 1
+	if not num and socketio:
+		socketio.emit('my_response', {'data': '目标网站连接失败,请稍后重试!'},namespace='/patent')
+		socketio.emit('disconnect', {'data': 'disconnect'},namespace='/patent')
+		return
 	while i<= num:
 		failed_tag = 0
 		attempt = 0
@@ -219,10 +223,11 @@ def auto_click(id,socketio=None,proxy=False):
 	content = list(mongo.collection.find({'_id':ObjectId(id)}))
 	content = content[0]
 	url = URL
-	socketio.emit('my_response',
-			{'data': URL},
-			namespace='/patent')
-	socketio.sleep(1)
+	if socketio:
+		socketio.emit('my_response',
+				{'data': URL},
+				namespace='/patent')
+		socketio.sleep(1)
 	click(url,content,socketio=socketio,proxy=proxy)
 
 def main():

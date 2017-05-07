@@ -261,6 +261,7 @@ $(document).ready(function() {
         console.log(id)
         //websocket配置
         namespace = '/patent';
+        $("#disconnect").attr("disabled", false);
 
         // Connect to the Socket.IO server.
         // The connection URL has the following format:
@@ -292,6 +293,7 @@ $(document).ready(function() {
     $('#disconnect').on('click', function() {
         connect_tag = false;
         socket.disconnect();
+        $("#disconnect").attr("disabled", true); 
 
     });
 

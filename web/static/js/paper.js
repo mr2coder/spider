@@ -328,8 +328,8 @@ $(document).ready(function() {
 
     function log_socket(url) {
         //websocket配置
-        console.log("dadfasd");
         namespace = '/paper';
+        $("#disconnect").attr("disabled", false);
 
         // Connect to the Socket.IO server.
         // The connection URL has the following format:
@@ -361,6 +361,7 @@ $(document).ready(function() {
     $('#disconnect').on('click', function() {
         connect_tag = false;
         socket.disconnect();
+        $("#disconnect").attr("disabled", true); 
 
     });
 
