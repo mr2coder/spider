@@ -11,9 +11,9 @@ $(document).ready(function(){
             $("#btn_file").val("");
             });
     $("#add").click(function(){
-      day = $('select[name="day"]').val();
-      week = $('select[name="week"]').val();
-      hour = $('select[name="hour"]').val();
+      day = $("#day").find("option:selected").text();
+      week = $("#week").find("option:selected").text();
+      hour = $("#hour").find("option:selected").text();
       site = $('input[name="site"]').val();
           $.post('/congif_file', {
             day:day,
@@ -44,7 +44,48 @@ $(document).ready(function(){
         $("#paperModal").modal('show')
        });
     });
-
+    function config()
+    {
+      
+      console.log("11111111111111")
+       $.post('/config_set', {
+        },function(responseTxt){
+        var str = responseTxt.split('\n');
+        $.each(str,function(i,val)
+              {
+                
+                if(i==1)
+                  {
+                    console.log(val)
+                   // $('#day option').filter(function(){return $(this).text()=="7";}).attr("selected",true);
+                   var count=$("#day").get(0).options.length;  
+            for(var i=0;i<count;i++){  
+              if($("#day").get(0).options[i].text == "8")    
+              {  
+                $("#day").get(0).options[i].selected = true;            
+                break;    
+              }    
+            } 
+                  }
+                  if(i==3)
+                  {
+                    console.log(val)
+                    $("#week option:contains('周四')").attr('selected', true);
+                  }
+                   if(i==5)
+                  {
+                    console.log(val)
+                    $("#hour option:contains('4')").attr('selected', true);
+                  }
+                   if(i==7)
+                  {
+                    console.log(val)
+                    $("#site").val(val);
+                  }
+              });
+       });
+       console.log("2222222222222222222")
+    }
  });
 
 

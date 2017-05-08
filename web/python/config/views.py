@@ -53,6 +53,21 @@ def open_file():
 		print(str(e))
 		return "hello world"
 
+
+@app.route('/config_set' ,methods=['POST'])
+def config_set():
+	Basedir=os.path.abspath('.')
+	filename = Basedir+"/../"+"config.conf"
+	file_content = []
+	try:
+		with open(filename) as file_to_read:
+			file_content = file_to_read.read()
+		print(file_content.strip())
+		return file_content.strip()
+	except Exception as e :
+		print(str(e))
+		return "hello world"		
+
 @app.route('/check_note' ,methods=['POST'])
 def check_note():
 

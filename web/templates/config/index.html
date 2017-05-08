@@ -1,6 +1,52 @@
 {% extends "layout.html" %} {% block body %}
 <script src="{{url_for('static',filename='js/comfig.js')}}"></script>
 <script type="text/javascript">
+window.onload=config
+function config()
+    {
+      
+      console.log("11111111111111")
+       $.post('/config_set', {
+        },function(responseTxt){
+        var str = responseTxt.split('\n');
+        $.each(str,function(i,val)
+              {
+                
+                if(i==1)
+                  {
+                
+                     $('#day option').filter(function(){return $(this).text()==val;}).attr("selected",true);  
+                   
+                                    //更新内容刷新到相应的位置
+                     $('#day').selectpicker('render');
+                     $('#day').selectpicker('refresh');
+                  }
+                  if(i==3)
+                  {
+                    console.log(val)
+                     $('#week option').filter(function(){return $(this).text()==val;}).attr("selected",true);
+                        
+                                    //更新内容刷新到相应的位置
+                     $('#week').selectpicker('render');
+                     $('#week').selectpicker('refresh');
+                  }
+                   if(i==5)
+                  {
+                    console.log(val)
+                     $('#hour option').filter(function(){return $(this).text()==val;}).attr("selected",true);
+                     $('#hour').selectpicker('render');
+                     $('#hour').selectpicker('refresh');
+                  }
+                   if(i==7)
+                  {
+                    console.log(val)
+                    $("#site").val(val);
+                  }
+              });
+       });
+       console.log("2222222222222222222")
+    }
+
 </script>
 <header class="codrops-header" style=" margin: 0 auto 0;">
     <h1>爬虫配置</h1>
@@ -17,7 +63,7 @@
                     <div class="form-group">
                         <span for="basic2" class="col-lg-2 control-label">日期选择</span>
                         <div class="col-lg-10">
-                            <select name='day' id='date' class="selectpicker" >
+                            <select name='day' id='day'  class="selectpicker">
                             <option value="one">1</option>
                             <option value="two">2</option>
                             <option value="there">3</option>
@@ -66,7 +112,7 @@
                     <div class="form-group">
                         <span for="basic2" class="col-lg-2 control-label">时间选择</span>
                         <div class="col-lg-10">
-                        <select name='hour' id='time' class="selectpicker">
+                        <select name='hour' id='hour' class="selectpicker">
                             <option value="0">0</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -104,7 +150,7 @@
                         <h4>选择你需要导入IP的方式: </h4>
                     </div>                   
                     <div id="quyu" class ="col-lg-6">
-                        <input type="text" class="form-control" id="textfield"  name='site' placeholder="站点">
+                        <input type="text" class="form-control" id="site"  name='site' placeholder="站点">
                     </div>
                     <div class="col-lg-6">
                         <form action="" method="get">
