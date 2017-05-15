@@ -156,7 +156,7 @@ function config()
                         <form action="" method="get">
                          <label><input  name="earn" type="radio" value="" />自动获取 </label> 
                          <label><input id="add-set" name="earn" type="radio" value="" />手动获取</label> 
-                        <input type="file" id="btn_file" name="sitefirst"  style="display:none" >
+                        <input type="file" id="btn_file" name="sitefirst"  style="display:none" onchange="upload(this)">
                          </form>
                     </div>
                     <hr>
@@ -229,6 +229,21 @@ function config()
                     <h4 class="modal-title" id="myModalLabel">日志文件显示</h4>
                 </div>
                 <div id="log" class="modal-body" style="height: 650px;overflow-y: auto;">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">站点目录显示</h4>
+                </div>
+                <div id="logsite" class="modal-body" style="height: 650px;overflow-y: auto;">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>

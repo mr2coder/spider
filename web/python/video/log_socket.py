@@ -15,6 +15,7 @@ back_thread = None
 def test_connect():
 	emit('my_response', {'data': 'Connected video', 'count': 0})
 
+#传递site和content，进行爬虫
 @socketio.on('message', namespace='/video')
 def run(*message):
 	print(message )

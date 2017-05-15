@@ -33,7 +33,7 @@ def open_file():
 	print(site)
 	site = site.replace("\\", '/')
 	print(site)
-	filename = '/www/testgit/log/paper/te.txt' # txt文件和当前脚本在同一目录下，所以不用写具体路径
+	filename = site 
 	
 	pos = []
 	Efield = []
@@ -93,7 +93,8 @@ def check_note():
 		elif note == "patent":
 			filename = Basedir+"/../"+"log/patent/patent.log."+str(localtime)
 		else:
-			filename = Basedir+"/../"+"log/video/video.log."+str(localtime)		
+			filename = Basedir+"/../"+"log/video/video.log."+str(localtime)
+	print(filename)		
 	pos = []
 	Efield = []
 	file_content = []

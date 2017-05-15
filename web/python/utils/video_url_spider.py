@@ -25,7 +25,7 @@ from mongo import mongoConnection
 
 
 
-
+#爬虫调用入口
 def url_spider(kwargs,socketio=None):
 	logger.info('target site:{}, spider begin...'.format(kwargs['site']))
 	# if 'youtube' in kwargs['site']:
@@ -52,6 +52,7 @@ def url_spider(kwargs,socketio=None):
 		iqiyi_url_spider(kwargs['content'],site='tudou',socketio=socketio)
 	if 'souhu' in kwargs['site']:
 		iqiyi_url_spider(kwargs['content'],site='souhu',socketio=socketio)
+
 
 
 def youtube_url_spider(content,socketio=None):
@@ -150,7 +151,7 @@ def sina_url_spider(content,socketio=None):
 		json_data = response.json()
 		total_num = json_data["total"]
 		logger.info('total items:'+str(total_num))
-		if socketio:
+		if socketio :
 			socketio.sleep(1)
 			socketio.emit('my_response',
 				{'data': 'total items:'+str(total_num)},
@@ -168,7 +169,7 @@ def sina_url_spider(content,socketio=None):
 			result = [{"videoname":re.compile(r'(<.*?>)').sub("",x.get("videoname")),
 						"url":x.get("url"),
 						"showtime":x.get("showtime"),
-						"videoinfo":x.get("videoinfo"),
+ 						"videoinfo":x.get("videoinfo"),
 						"playtimes":x.get("playtimes"),
 						"spidertime":time.strftime( '%Y-%m-%d %X', time.localtime()),
 						"site":"sina",
@@ -197,6 +198,7 @@ def sina_url_spider(content,socketio=None):
 def youku_url_spider(content):
 	pass
 
+#调用爬虫入口函数
 def click(content,site,socketio=None,proxy=False):
 	args = {}
 	logger.info(content+':'+site)

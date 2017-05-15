@@ -27,7 +27,7 @@ def build_url(content,site,time_limt='level0',length='level1',pagenum=1):
 		length=arr_len[length],site=site)
 	return url
 
-
+#获取页面数目
 def get_page_nums(content,site,time_limt='level0',length='level1',pagenum=1):
 	url = build_url(content,site,time_limt,length,pagenum)
 	response = requests.get(url=url)
@@ -39,6 +39,7 @@ def get_page_nums(content,site,time_limt='level0',length='level1',pagenum=1):
 		total_items = float(temp[0])*10000
 	return int(total_items)
 
+#获取页面文本信息
 def get_page_info(content,site,time_limt='level0',length='level1',pagenum=1):
 	url = build_url(content,site,time_limt,length,pagenum)
 	response = requests.get(url=url)
@@ -66,7 +67,7 @@ def get_page_info(content,site,time_limt='level0',length='level1',pagenum=1):
 				} for x in zip(titles, links, p_times, infos)]
 	return result
 
-
+#爬虫路口
 def iqiyi_url_spider(content,site='iqiyi',socketio=None):
 	mongoDB = mongoConnection.mongoConnection(db='video',collection='spider')
 	data = list(mongoDB.collection.find({'content':content,'site':site},{'time_limit':1,'_id':0,'length':1}))[0]
@@ -79,7 +80,7 @@ def iqiyi_url_spider(content,site='iqiyi',socketio=None):
 		result = get_page_info(content,site,time_limt=data['time_limit'],length=data['length'],pagenum=index)
 		if socketio:
 			for line in result:
-				socketio.emit('my_response',
+				socketio.emit('my_response',  
 					{'data': 'Currently crawling title is: '+line['videoname']},
 					namespace='/video')
 				socketio.sleep(1)
@@ -90,7 +91,7 @@ def iqiyi_url_spider(content,site='iqiyi',socketio=None):
 				except Exception as e:
 					logger.debug(e)
 			socketio.emit('my_response', {'data': '已完成'},namespace='/video')
-			socketio.emit('disconnect', {'data': 'disconnect'},namespace='/video')
+			s ocketio.emit('disconnect', {'data': 'disconnect'},namespace='/video')
 
 
 

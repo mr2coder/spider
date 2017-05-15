@@ -315,7 +315,7 @@ $(document).ready(function() {
         $('#log').html("");
         $('#log').append('<p>' + $('<div/>').text('task begin...').html());
         log_socket(data['content'], data['site'])
-
+     
     });
 
     function log_socket(content, site) {
