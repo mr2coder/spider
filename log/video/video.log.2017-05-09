@@ -1,0 +1,299 @@
+Tue, 09 May 2017 14:43:51 video_url_spider.py[line:202] INFO 朝鲜:sina
+Tue, 09 May 2017 14:43:51 video_url_spider.py[line:30] INFO target site:sina, spider begin...
+Tue, 09 May 2017 14:43:51 video_url_spider.py[line:152] INFO total items:22898
+Tue, 09 May 2017 14:43:52 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=1&n=20
+Tue, 09 May 2017 14:43:53 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:43:53 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=2&n=20
+Tue, 09 May 2017 14:43:54 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:43:54 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=3&n=20
+Tue, 09 May 2017 14:43:55 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:43:55 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=4&n=20
+Tue, 09 May 2017 14:43:56 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:43:56 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=5&n=20
+Tue, 09 May 2017 14:43:57 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:43:57 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=6&n=20
+Tue, 09 May 2017 14:43:59 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:43:59 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=7&n=20
+Tue, 09 May 2017 14:44:00 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:00 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=8&n=20
+Tue, 09 May 2017 14:44:01 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:01 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=9&n=20
+Tue, 09 May 2017 14:44:02 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:02 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=10&n=20
+Tue, 09 May 2017 14:44:03 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:03 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=11&n=20
+Tue, 09 May 2017 14:44:04 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:04 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=12&n=20
+Tue, 09 May 2017 14:44:05 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:05 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=13&n=20
+Tue, 09 May 2017 14:44:06 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:06 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=14&n=20
+Tue, 09 May 2017 14:44:07 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:07 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=15&n=20
+Tue, 09 May 2017 14:44:08 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:08 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=16&n=20
+Tue, 09 May 2017 14:44:09 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:09 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=17&n=20
+Tue, 09 May 2017 14:44:10 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:10 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=18&n=20
+Tue, 09 May 2017 14:44:11 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:11 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=19&n=20
+Tue, 09 May 2017 14:44:12 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:12 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=20&n=20
+Tue, 09 May 2017 14:44:13 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:13 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=21&n=20
+Tue, 09 May 2017 14:44:14 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:14 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=22&n=20
+Tue, 09 May 2017 14:44:15 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:15 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=23&n=20
+Tue, 09 May 2017 14:44:16 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:16 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=24&n=20
+Tue, 09 May 2017 14:44:17 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:17 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=25&n=20
+Tue, 09 May 2017 14:44:19 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:19 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=26&n=20
+Tue, 09 May 2017 14:44:20 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:20 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=27&n=20
+Tue, 09 May 2017 14:44:21 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:21 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=28&n=20
+Tue, 09 May 2017 14:44:22 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:22 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=29&n=20
+Tue, 09 May 2017 14:44:23 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:23 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=30&n=20
+Tue, 09 May 2017 14:44:24 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:24 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=31&n=20
+Tue, 09 May 2017 14:44:25 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:25 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=32&n=20
+Tue, 09 May 2017 14:44:28 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:28 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=33&n=20
+Tue, 09 May 2017 14:44:29 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:29 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=34&n=20
+Tue, 09 May 2017 14:44:30 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:30 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=35&n=20
+Tue, 09 May 2017 14:44:31 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:31 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=36&n=20
+Tue, 09 May 2017 14:44:32 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:32 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=37&n=20
+Tue, 09 May 2017 14:44:33 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:33 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=38&n=20
+Tue, 09 May 2017 14:44:34 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:34 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=39&n=20
+Tue, 09 May 2017 14:44:36 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:36 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=40&n=20
+Tue, 09 May 2017 14:44:37 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:37 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=41&n=20
+Tue, 09 May 2017 14:44:38 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:38 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=42&n=20
+Tue, 09 May 2017 14:44:39 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:39 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=43&n=20
+Tue, 09 May 2017 14:44:40 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:40 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=44&n=20
+Tue, 09 May 2017 14:44:41 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:41 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=45&n=20
+Tue, 09 May 2017 14:44:42 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:42 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=46&n=20
+Tue, 09 May 2017 14:44:43 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:43 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=47&n=20
+Tue, 09 May 2017 14:44:44 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:44 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=48&n=20
+Tue, 09 May 2017 14:44:45 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:45 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=49&n=20
+Tue, 09 May 2017 14:44:46 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:46 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=50&n=20
+Tue, 09 May 2017 14:44:47 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:47 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=51&n=20
+Tue, 09 May 2017 14:44:48 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:48 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=52&n=20
+Tue, 09 May 2017 14:44:49 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:49 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=53&n=20
+Tue, 09 May 2017 14:44:50 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:50 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=54&n=20
+Tue, 09 May 2017 14:44:51 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:51 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=55&n=20
+Tue, 09 May 2017 14:44:52 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:52 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=56&n=20
+Tue, 09 May 2017 14:44:54 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:54 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=57&n=20
+Tue, 09 May 2017 14:44:55 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:55 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=58&n=20
+Tue, 09 May 2017 14:44:56 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:56 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=59&n=20
+Tue, 09 May 2017 14:44:57 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:57 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=60&n=20
+Tue, 09 May 2017 14:44:58 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:58 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=61&n=20
+Tue, 09 May 2017 14:44:59 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:44:59 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=62&n=20
+Tue, 09 May 2017 14:45:00 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:00 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=63&n=20
+Tue, 09 May 2017 14:45:01 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:01 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=64&n=20
+Tue, 09 May 2017 14:45:02 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:02 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=65&n=20
+Tue, 09 May 2017 14:45:03 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:03 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=66&n=20
+Tue, 09 May 2017 14:45:04 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:04 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=67&n=20
+Tue, 09 May 2017 14:45:05 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:05 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=68&n=20
+Tue, 09 May 2017 14:45:06 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:06 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=69&n=20
+Tue, 09 May 2017 14:45:07 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:07 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=70&n=20
+Tue, 09 May 2017 14:45:08 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:08 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=71&n=20
+Tue, 09 May 2017 14:45:09 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:09 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=72&n=20
+Tue, 09 May 2017 14:45:10 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:10 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=73&n=20
+Tue, 09 May 2017 14:45:11 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:11 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=74&n=20
+Tue, 09 May 2017 14:45:12 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:12 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=75&n=20
+Tue, 09 May 2017 14:45:14 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:14 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=76&n=20
+Tue, 09 May 2017 14:45:15 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:15 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=77&n=20
+Tue, 09 May 2017 14:45:16 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:16 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=78&n=20
+Tue, 09 May 2017 14:45:17 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:45:17 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=79&n=20
+Tue, 09 May 2017 14:47:05 video_url_spider.py[line:202] INFO 朝鲜:sina
+Tue, 09 May 2017 14:47:05 video_url_spider.py[line:30] INFO target site:sina, spider begin...
+Tue, 09 May 2017 14:47:05 video_url_spider.py[line:152] INFO total items:22898
+Tue, 09 May 2017 14:47:06 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=1&n=20
+Tue, 09 May 2017 14:47:07 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:07 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=2&n=20
+Tue, 09 May 2017 14:47:08 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:08 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=3&n=20
+Tue, 09 May 2017 14:47:09 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:09 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=4&n=20
+Tue, 09 May 2017 14:47:10 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:10 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=5&n=20
+Tue, 09 May 2017 14:47:11 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:11 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=6&n=20
+Tue, 09 May 2017 14:47:25 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:25 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=7&n=20
+Tue, 09 May 2017 14:47:26 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:26 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=8&n=20
+Tue, 09 May 2017 14:47:33 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:33 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=9&n=20
+Tue, 09 May 2017 14:47:34 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:34 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=10&n=20
+Tue, 09 May 2017 14:47:35 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:35 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=11&n=20
+Tue, 09 May 2017 14:47:36 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:36 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=12&n=20
+Tue, 09 May 2017 14:47:37 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:37 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=13&n=20
+Tue, 09 May 2017 14:47:38 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:38 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=14&n=20
+Tue, 09 May 2017 14:47:41 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:41 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=15&n=20
+Tue, 09 May 2017 14:47:43 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:43 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=16&n=20
+Tue, 09 May 2017 14:47:44 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:44 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=17&n=20
+Tue, 09 May 2017 14:47:48 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:48 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=18&n=20
+Tue, 09 May 2017 14:47:49 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:49 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=19&n=20
+Tue, 09 May 2017 14:47:53 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:53 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=20&n=20
+Tue, 09 May 2017 14:47:54 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:54 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=21&n=20
+Tue, 09 May 2017 14:47:55 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:55 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=22&n=20
+Tue, 09 May 2017 14:47:57 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:47:57 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=23&n=20
+Tue, 09 May 2017 14:48:00 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:48:00 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=24&n=20
+Tue, 09 May 2017 14:48:01 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:48:01 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=25&n=20
+Tue, 09 May 2017 14:48:03 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:48:03 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=26&n=20
+Tue, 09 May 2017 14:48:20 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Tue, 09 May 2017 14:48:20 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=27&n=20
+Tue, 09 May 2017 15:30:48 video_url_spider.py[line:202] INFO 数据挖掘:youku
+Tue, 09 May 2017 15:30:48 video_url_spider.py[line:30] INFO target site:youku, spider begin...
+Tue, 09 May 2017 15:30:51 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频汽车总动员 赛车总动员 变形警车珀利 拖车汤姆8" }
+Tue, 09 May 2017 15:30:52 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "赛车总动员 变形警车珀利 挖掘机视频表演大全3  挖土机玩具视频 玩具 汽车总动员" }
+Tue, 09 May 2017 15:31:42 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "赛车总动员 变形警车珀利 挖掘机视频表演大全8 挖土机玩具视频" }
+Tue, 09 May 2017 15:31:44 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "工程车挖掘机动画 最新挖掘机动画视频 叉车驾驶员操作" }
+Tue, 09 May 2017 16:05:39 video_url_spider.py[line:202] INFO 速度与激情:qq
+Tue, 09 May 2017 16:05:39 video_url_spider.py[line:30] INFO target site:qq, spider begin...
+Tue, 09 May 2017 16:06:10 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "“无忌哥哥”吴启华空降长沙诗尼曼上演长沙版速度与激情!" }
+Tue, 09 May 2017 16:06:20 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8黑科技" }
+Tue, 09 May 2017 16:06:25 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8精彩部分" }
+Tue, 09 May 2017 16:06:28 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情豪车大盘点" }
+Tue, 09 May 2017 16:06:29 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情2片段" }
+Tue, 09 May 2017 16:06:37 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "农村版的速度与激情，结局亮了，千万不要笑出声！" }
+Tue, 09 May 2017 16:06:38 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【电网版】速度与激情" }
+Tue, 09 May 2017 16:06:39 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "6分钟混剪 《速度与激情》全系列，怀念保罗时代" }
+Tue, 09 May 2017 16:06:40 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "春风沙滩车版速度与激情 冰面上玩沙滩车" }
+Tue, 09 May 2017 16:06:41 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情3 美日争夺妹纸太疯狂啦" }
+Tue, 09 May 2017 16:06:42 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情 从二环到华阳" }
+Tue, 09 May 2017 16:06:43 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "小忠说车——第七期 挑战18分钟速度与激情" }
+Tue, 09 May 2017 16:07:12 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情男主角保罗沃克悼念现场，数十辆重机去祭奠，太霸气了" }
+Tue, 09 May 2017 16:07:19 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8" }
+Tue, 09 May 2017 16:07:38 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "农村版的速度与激情，结局亮了，千万不要笑出声！" }
+Tue, 09 May 2017 16:07:42 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8" }
+Tue, 09 May 2017 16:07:46 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8大块头霍萌爸表现" }
+Tue, 09 May 2017 16:07:47 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8 Fate ofthe Furious 车手对决" }
+Tue, 09 May 2017 16:07:48 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "柯南公路上演“速度与激情”且还冤枉好人，警察同志抓他，没毛病" }
+Tue, 09 May 2017 16:07:51 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情的角逐，够刺激" }
+Tue, 09 May 2017 16:07:55 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "海贼王：这是什么比赛，海贼王版速度与激情" }
+Tue, 09 May 2017 16:08:24 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "健丰源遥控车版速度与激情" }
+Tue, 09 May 2017 16:08:35 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8" }
+Tue, 09 May 2017 16:08:40 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "GTA5 - 速度与激情5" }
+Tue, 09 May 2017 16:08:44 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "在网吧里上演速度与激情8，网吧老板要赶人了" }
+Tue, 09 May 2017 16:08:46 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "环球飞车绍兴首秀，再现速度与激情" }
+Tue, 09 May 2017 16:08:50 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "裱花师的速度与激情" }
+Tue, 09 May 2017 16:08:51 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情 7 音效" }
+Tue, 09 May 2017 16:08:52 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "苏格缪斯速度与激情" }
+Tue, 09 May 2017 16:08:53 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情：重回赛车时代" }
+Tue, 09 May 2017 16:08:55 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "GTA5 - 速度与激情4" }
+Tue, 09 May 2017 16:08:57 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "环球飞车绍兴首秀，再现速度与激情" }
+Tue, 09 May 2017 16:09:02 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8" }
+Tue, 09 May 2017 16:09:03 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8" }
+Tue, 09 May 2017 16:09:04 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "这才叫速度与激情，这哥们手再慢一秒就没命了" }
+Tue, 09 May 2017 16:09:06 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情9-山地车版" }
+Tue, 09 May 2017 16:09:08 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "范迪塞尔VS杰森斯坦森 这才是速度与激情 真汉子" }
+Tue, 09 May 2017 16:09:11 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "范·迪塞尔、娜塔莉·伊曼纽尔回归《速度与激情8》" }
+Tue, 09 May 2017 16:09:12 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《不一样的美男子2》这车开的是速度与激情啊" }
+Tue, 09 May 2017 16:09:13 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "阔阔新编速度与激情8主题曲《Hey Ma》拉丁爵士" }
+Tue, 09 May 2017 16:09:14 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8 这一段美版大哥对大哥的对话以及大哥与小弟对话" }
+Tue, 09 May 2017 16:09:15 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【能飞无人机学院】速度与激情7，无人机航拍镜头锦集" }
+Tue, 09 May 2017 16:09:24 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "街头上演速度与激情" }
+Tue, 09 May 2017 16:09:25 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8" }
+Tue, 09 May 2017 16:09:27 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7片段" }
+Tue, 09 May 2017 16:09:30 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情9" }
+Tue, 09 May 2017 16:09:31 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "红色SUV现实版"速度与激情"" }
+Tue, 09 May 2017 16:09:32 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "终于出来了！道奇Ice Charger 速度与激情8中的魔兽" }
+Tue, 09 May 2017 16:09:33 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8" }
+Tue, 09 May 2017 16:09:38 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "汝城《速度与激情1》" }
+Tue, 09 May 2017 16:09:39 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情的感觉啊！" }
+Tue, 09 May 2017 16:09:48 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "五毛特效，速度与激情9" }
+Tue, 09 May 2017 16:09:49 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8歌曲" }
+Tue, 09 May 2017 16:09:59 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "北流人看现实版的速度与激情吗？疯狂大铲车在公路上横行霸道！" }
+Tue, 09 May 2017 16:10:02 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情6》让你肾上腺素飙升的精彩片段混剪" }
+Tue, 09 May 2017 16:10:06 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8 这段告诉我们忽悠美国也有而且是美女出来忽悠" }
+Tue, 09 May 2017 16:10:07 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "征服森林的骑士 速度与激情" }
+Tue, 09 May 2017 16:10:10 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "真正的速度与激情！这哪是飙车，简直是玩命啊！" }
+Tue, 09 May 2017 16:10:12 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "神級的甩尾，速度与激情专用车技特效" }
+Tue, 09 May 2017 16:10:13 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情！西安：骏马PK摩托车“车马大战”看谁更快" }
+Tue, 09 May 2017 16:10:14 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情》最后这段对话满满兄弟手足情，好感动" }
+Tue, 09 May 2017 16:10:15 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "这么多顶级豪车只在《速度与激情》中看到过" }
+Tue, 09 May 2017 16:10:17 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "农村版的速度与激情，结局亮了，千万不要笑出声！" }
+Tue, 09 May 2017 16:10:26 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8" }
+Tue, 09 May 2017 16:10:34 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情 [韩] 旧车改装计划 湾岸恶魔240Z" }
+Tue, 09 May 2017 16:10:44 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "长乐法院的速度与激情" }
+Tue, 09 May 2017 16:10:45 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "把闺蜜送回家，跟闺蜜的老公在办公室上演速度与激情" }
+Tue, 09 May 2017 16:10:46 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "不一样的速度与激情，秋名山车神" }
+Tue, 09 May 2017 16:10:58 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "内蒙古：豪车炸街街头上演速度与激情" }
+Tue, 09 May 2017 16:11:19 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7天眼-单人组" }
+Tue, 09 May 2017 16:11:29 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8" }
+Tue, 09 May 2017 16:11:32 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "范迪塞尔VS杰森斯坦森 这才是速度与激情 真汉子" }
+Tue, 09 May 2017 16:11:48 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8" }
+Tue, 09 May 2017 16:11:58 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7 飞机空投轿车 这B装的我服" }
+Tue, 09 May 2017 16:12:10 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情8》插曲《Goodlife》" }

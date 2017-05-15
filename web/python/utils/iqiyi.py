@@ -91,7 +91,7 @@ def iqiyi_url_spider(content,site='iqiyi',socketio=None):
 				except Exception as e:
 					logger.debug(e)
 			socketio.emit('my_response', {'data': '已完成'},namespace='/video')
-			s ocketio.emit('disconnect', {'data': 'disconnect'},namespace='/video')
+			socketio.emit('disconnect', {'data': 'disconnect'},namespace='/video')
 
 
 

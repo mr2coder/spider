@@ -1,0 +1,26 @@
+Sat, 06 May 2017 20:36:41 paper_url_spider.py[line:155] INFO 免费代理获取中  
+这可能花费几分钟，请稍后...
+Sat, 06 May 2017 20:36:42 paper_url_spider.py[line:166] INFO 免费代理获取完毕，总共1条。
+Sat, 06 May 2017 20:36:44 paper_url_spider.py[line:173] INFO 3778
+Sat, 06 May 2017 20:36:44 paper_url_spider.py[line:206] INFO papers:人工智能：从科学梦到新蓝海--人工智能产业发展分析及对策
+Sat, 06 May 2017 20:36:45 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Sat, 06 May 2017 20:36:45 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Sat, 06 May 2017 20:36:45 paper_url_spider.py[line:206] INFO papers:计算机人工智能的发展源流及曙光——评《心智、语言和机器——维特根斯坦哲学和人工智能科学的对话》
+Sat, 06 May 2017 20:36:46 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Sat, 06 May 2017 20:36:46 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Sat, 06 May 2017 20:36:47 paper_url_spider.py[line:206] INFO papers:遵守规则与人工智能——维特根斯坦与图灵人工智能理论的交集
+Sat, 06 May 2017 20:36:48 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Sat, 06 May 2017 20:36:48 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Sat, 06 May 2017 20:36:48 paper_url_spider.py[line:206] INFO papers:不确定性人工智能
+Sat, 06 May 2017 20:36:49 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Sat, 06 May 2017 20:36:49 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Sat, 06 May 2017 20:36:49 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Sat, 06 May 2017 20:36:49 paper_url_spider.py[line:151] DEBUG list index out of range
+Sat, 06 May 2017 20:36:49 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Sat, 06 May 2017 20:36:49 paper_url_spider.py[line:151] DEBUG list index out of range
+Sat, 06 May 2017 20:36:49 paper_url_spider.py[line:150] DEBUG 论文解析失败..
+Sat, 06 May 2017 20:36:49 paper_url_spider.py[line:151] DEBUG list index out of range
+Sat, 06 May 2017 20:36:49 paper_url_spider.py[line:206] INFO papers:人工智能研究面临的两个问题——对人工智能的思考探讨
+Sat, 06 May 2017 20:36:50 paper_url_spider.py[line:217] DEBUG 'NoneType' object is not iterable
+Sat, 06 May 2017 20:36:50 paper_url_spider.py[line:218] DEBUG 插入数据库失败...
+Sat, 06 May 2017 20:36:50 paper_url_spider.py[line:206] INFO papers:论人工智能产品侵权行为责任认定——以人工智能汽车为例
