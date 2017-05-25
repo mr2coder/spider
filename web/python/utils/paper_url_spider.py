@@ -215,6 +215,7 @@ def click(url,socketio=None,proxy=False):
 						mongo.collection.insert(papers)
 					except Exception as e:
 						logger.debug(e)
+						logger.debug(papers)
 						logger.debug('插入数据库失败...')
 					# fwrite(FNAME, papers)
 

@@ -2,9 +2,14 @@
 from functions import *
 import json
 import time as realtime
-import logging
 from datetime import datetime
+import logging.config
+import os
+path = os.path.abspath(__file__).replace('\\','/').split('/')
 
+logfile = os.path.join( '/'.join(path[:-4]),"logger.conf")
+logging.config.fileConfig(logfile)
+logger = logging.getLogger("paper")
 def __key_clean__(key,**kwargs):
 	pass
 
@@ -90,8 +95,8 @@ def __institution_clean__(institution,**kwargs):
 def __date_clean__(date,**kwargs):
 	if len(date)==0:
 		return None
-	year = date[0].split(',')[0]
-	period = date[0].split('(')[1].split(')')[0]
+	year = date.split(',')[0]
+	period = date.split('(')[1].split(')')[0]
 	return {'year':year, 'period':period}
 
 
@@ -106,6 +111,7 @@ def __location_clean__(institution,**kwargs):
 
 
 def read_city(fname='city.txt'):
+	fname = os.path.join( '/'.join(path[:-1]),fname)
 	#Return all city's name in China
 	file = open(fname,"r")
 	name_list = file.readlines()
@@ -142,7 +148,6 @@ def clean(line):
 		#set journal
 		temp['journal'] = line['journal']
 		temp['date'] = __date_clean__(line['date'])
-		
 		temp['abstract']['Chinese'] = line['abstract']
 
 		#Because of my stupid when crawl data,so have to do like this...
@@ -159,6 +164,7 @@ def clean(line):
 			temp['authors'][line['authors'][0]] = {}
 			institution =  __institution_clean__(line['institutions'].encode("utf-8"), standard_names=standard_names)
 			locate = __location_clean__(line['institutions'].encode("utf-8"))
+
 			for x in line['authors']:
 				temp['authors'][x] = {}
 				temp['authors'][x]['institution'] = institution
@@ -167,9 +173,9 @@ def clean(line):
 		# temp['institutions'] = line['institutions']
 		return temp
 	except Exception as e:
-		print(e,'123')
-		logging.debug(line)
-		logging.debug(e)
+		logger.debug('clean fail')
+		logger.debug(temp)
+		logger.debug(line)
 
 def main():
 	key = 'institution'
@@ -215,7 +221,7 @@ if __name__ == '__main__':
 
 	# print __location_clean__(institution)
 	# print __date_clean__(['2008, 34(10)'])
-	main()
+	read_city()
 	# db_conection = mongoConnection()
 	# # db_conection.collection = db_conection.db['paper_new']
 	# result = db_conection.collection.find({},{'link':1})

@@ -21,7 +21,19 @@ $(document).ready(function(){
     })
  })*/
 
-
+   $("#add").click(function(){
+    console.log("nihaonihao")
+        day = $('#day').val();
+        week = $('#week').val();
+        hour = $('#hour').val();
+        site = $('#site').val();
+          $.post('/config_file', {
+            day:day,
+            week:week,
+            hour:hour,
+            site:site 
+        });
+   })
    $("#add_note").click(function(){
    	console.log("hgfgffhg")
     	time = $('input[name="time"]').val();

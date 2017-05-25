@@ -64,10 +64,11 @@ $(document).ready(function() {
         time_limit = $('select[name="time_limit"]').val();
         console.log(len,time_limit);
         site = JSON.stringify(site)
-        if (content == '') {
-            alert('内容不能为空！');
+        if (content == '' || site == '') {
+            alert('内容和站点不能为空！');
             return false
         }
+        
         $.post('/api_add_video_spider', {
             content: content,
             site: site,

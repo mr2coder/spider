@@ -107,8 +107,9 @@ def check_note():
 		print(str(e))
 		return "none"
 
-@app.route('/congif_file' ,methods=['POST'])
+@app.route('/config_file' ,methods=['POST'])
 def congif_file():
+	print("nihao")
 	Basedir=os.path.abspath('.')
 	filename = Basedir+"/../"+"config.conf"
 	f = open(filename, "w")

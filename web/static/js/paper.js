@@ -204,7 +204,7 @@ $(document).ready(function() {
         document.getElementById('abstract').value = content['abstract'];
         document.getElementById('title').value = content['title'];
         document.getElementById('keyword').value = content['keyword'];
-        document.getElementById('author').value = content['authors'];
+        document.getElementById('author').value = content['author'];
         document.getElementById('insititution').value = content['insititution'];
         document.getElementById('feq').value = content['feq'];
 

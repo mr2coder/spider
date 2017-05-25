@@ -20,7 +20,7 @@ DB = 'patent'
 COLLECTION = 'spider'
 
 
-
+ 
 def update_patent():
 	now_time = time.strftime( '%Y-%m-%d %X', time.localtime())
 	temp = time.strptime(now_time,'%Y-%m-%d %X')

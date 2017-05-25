@@ -14,8 +14,8 @@ function config()
                 
                 if(i==1)
                   {
-                
-                     $('#day option').filter(function(){return $(this).text()==val;}).attr("selected",true);  
+                     console.log(val)
+                     $('#day option').filter(function(){return $(this).val()==val;}).attr("selected",true);  
                    
                                     //更新内容刷新到相应的位置
                      $('#day').selectpicker('render');
@@ -24,7 +24,7 @@ function config()
                   if(i==3)
                   {
                     console.log(val)
-                     $('#week option').filter(function(){return $(this).text()==val;}).attr("selected",true);
+                     $('#week option').filter(function(){return $(this).val()==val;}).attr("selected",true);
                         
                                     //更新内容刷新到相应的位置
                      $('#week').selectpicker('render');
@@ -33,7 +33,7 @@ function config()
                    if(i==5)
                   {
                     console.log(val)
-                     $('#hour option').filter(function(){return $(this).text()==val;}).attr("selected",true);
+                     $('#hour option').filter(function(){return $(this).val()==val;}).attr("selected",true);
                      $('#hour').selectpicker('render');
                      $('#hour').selectpicker('refresh');
                   }

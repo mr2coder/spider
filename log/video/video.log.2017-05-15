@@ -1,0 +1,166 @@
+Mon, 15 May 2017 09:27:24 video_url_spider.py[line:202] INFO 速度与激情:youtube
+Mon, 15 May 2017 09:27:24 video_url_spider.py[line:30] INFO target site:youtube, spider begin...
+Mon, 15 May 2017 09:28:50 video_url_spider.py[line:202] INFO 速度与激情:youku
+Mon, 15 May 2017 09:28:50 video_url_spider.py[line:30] INFO target site:youku, spider begin...
+Mon, 15 May 2017 09:29:02 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情" }
+Mon, 15 May 2017 09:29:03 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情" }
+Mon, 15 May 2017 09:29:05 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情三生三世明星祝福婚礼视频" }
+Mon, 15 May 2017 09:29:14 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8_飙出新高度" }
+Mon, 15 May 2017 09:29:16 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8_飙出新高度!" }
+Mon, 15 May 2017 09:29:18 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告_冰原飙车大战" }
+Mon, 15 May 2017 09:29:19 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告_冰原飙车大战" }
+Mon, 15 May 2017 09:29:21 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8电影_冰原飙车大战" }
+Mon, 15 May 2017 09:29:23 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8电影_冰原飙车大战" }
+Mon, 15 May 2017 09:29:24 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告片_冰原飙车大战" }
+Mon, 15 May 2017 09:29:26 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告片_冰原飙车大战" }
+Mon, 15 May 2017 09:29:28 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:29:31 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:29:32 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:29:35 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8完整版预告_飙出新高度" }
+Mon, 15 May 2017 09:29:36 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:29:38 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8完整版预告_飙出新高度" }
+Mon, 15 May 2017 09:29:39 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8在线观看_古巴街头冰原飙车" }
+Mon, 15 May 2017 09:29:40 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8在线观看_古巴街头冰原飙车" }
+Mon, 15 May 2017 09:29:41 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告片_古巴街头冰原飙车" }
+Mon, 15 May 2017 09:29:42 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告片_古巴街头冰原飙车" }
+Mon, 15 May 2017 09:29:43 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告片_古巴街头冰原飙车" }
+Mon, 15 May 2017 09:29:46 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8在线观看_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:29:47 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8在线观看_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:29:51 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8电影_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:29:54 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8电影_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:29:56 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告片_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:29:57 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8在线观看_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:29:58 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8在线观看_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:29:59 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8电影_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:30:00 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8完整版预告_古巴街头冰原飙车" }
+Mon, 15 May 2017 09:30:02 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告片_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:30:03 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8完整版预告_古巴街头冰原飙车" }
+Mon, 15 May 2017 09:30:04 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8在线观看_飙车炫酷无比，震撼眼球!" }
+Mon, 15 May 2017 09:30:05 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8在线观看_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:30:06 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告片_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:30:07 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告片_飙车炫酷无比，震撼眼球" }
+Mon, 15 May 2017 09:30:08 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8剧情_时代广场上演飙车大战" }
+Mon, 15 May 2017 09:30:12 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8电影_震撼飙车，点燃你的激情" }
+Mon, 15 May 2017 09:30:13 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告_震撼飙车，点燃你的激情" }
+Mon, 15 May 2017 09:30:14 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8完整版预告_飙车炫酷无比，震撼眼球!" }
+Mon, 15 May 2017 09:30:15 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告_震撼飙车，点燃你的激情" }
+Mon, 15 May 2017 09:30:16 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告_震撼飙车，点燃你的激情" }
+Mon, 15 May 2017 09:30:29 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情9" }
+Mon, 15 May 2017 09:30:46 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "Youku lab：一分钟认识《速度与激情8》" }
+Mon, 15 May 2017 09:30:47 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "Youku lab：一分钟认识《速度与激情8》" }
+Mon, 15 May 2017 09:30:48 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "Youku lab：一分钟认识《速度与激情8》中的所有车型" }
+Mon, 15 May 2017 09:30:51 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "实拍男子800米比赛现场，风驰电掣，体验速度与激情" }
+Mon, 15 May 2017 09:30:57 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "Youku lab：一分钟认识《速度与激情8》" }
+Mon, 15 May 2017 09:30:58 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "实拍美国警匪之间街头上演速度与激情，最终警车逼停摩托车！" }
+Mon, 15 May 2017 09:30:59 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "实拍美国警匪之间街头上演速度与激情，最终警车逼停摩托车！" }
+Mon, 15 May 2017 09:31:01 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告片_冰原飙车大战" }
+Mon, 15 May 2017 09:31:05 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8在线观看_古巴街头冰原飙车" }
+Mon, 15 May 2017 09:31:08 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8预告_时代广场上演飙车大战" }
+Mon, 15 May 2017 09:31:10 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8" }
+Mon, 15 May 2017 09:31:12 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "实拍男子800米比赛现场，风驰电掣，体验速度与激情" }
+Mon, 15 May 2017 09:31:13 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "实拍男子800米比赛现场，风驰电掣，体验速度与激情" }
+Mon, 15 May 2017 09:31:23 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "放开我北鼻 第2季：速度与激情！于小彤狂追，薛之谦吓得钻到衣柜里" }
+Mon, 15 May 2017 09:31:24 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情" }
+Mon, 15 May 2017 09:31:27 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情8》幕后花絮 片场实拍记录(2)" }
+Mon, 15 May 2017 09:37:23 video_url_spider.py[line:202] INFO 速度与激情:qq
+Mon, 15 May 2017 09:37:23 video_url_spider.py[line:30] INFO target site:qq, spider begin...
+Mon, 15 May 2017 09:37:32 video_url_spider.py[line:202] INFO 速度与激情:sina
+Mon, 15 May 2017 09:37:32 video_url_spider.py[line:30] INFO target site:sina, spider begin...
+Mon, 15 May 2017 09:37:32 video_url_spider.py[line:152] INFO total items:697
+Mon, 15 May 2017 09:37:33 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=速度与激情&s_id=w00001&p=1&n=20
+Mon, 15 May 2017 09:37:34 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Mon, 15 May 2017 09:37:34 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=速度与激情&s_id=w00001&p=2&n=20
+Mon, 15 May 2017 09:37:35 video_url_spider.py[line:182] DEBUG batch op errors occurred
+Mon, 15 May 2017 09:37:35 video_url_spider.py[line:160] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=速度与激情&s_id=w00001&p=3&n=20
+Mon, 15 May 2017 09:37:39 video_url_spider.py[line:202] INFO 速度与激情:youku
+Mon, 15 May 2017 09:37:39 video_url_spider.py[line:30] INFO target site:youku, spider begin...
+Mon, 15 May 2017 09:37:40 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8第二期" }
+Mon, 15 May 2017 09:37:41 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情8完整版预告_飙出新高度" }
+Mon, 15 May 2017 09:38:05 video_url_spider.py[line:202] INFO 速度与激情:iqiyi
+Mon, 15 May 2017 09:38:05 video_url_spider.py[line:30] INFO target site:iqiyi, spider begin...
+Mon, 15 May 2017 09:39:07 video_url_spider.py[line:202] INFO 速度与激情:tudou
+Mon, 15 May 2017 09:39:07 video_url_spider.py[line:30] INFO target site:tudou, spider begin...
+Mon, 15 May 2017 09:39:14 video_url_spider.py[line:202] INFO 速度与激情:souhu
+Mon, 15 May 2017 09:39:14 video_url_spider.py[line:30] INFO target site:souhu, spider begin...
+Mon, 15 May 2017 09:40:54 video_url_spider.py[line:202] INFO 速度与激情:acfun
+Mon, 15 May 2017 09:40:54 video_url_spider.py[line:30] INFO target site:acfun, spider begin...
+Mon, 15 May 2017 09:41:08 video_url_spider.py[line:202] INFO 速度与激情:tudou
+Mon, 15 May 2017 09:41:08 video_url_spider.py[line:30] INFO target site:tudou, spider begin...
+Mon, 15 May 2017 09:41:09 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "CBIN速度与激情（铲刹）" }
+Mon, 15 May 2017 09:41:10 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "一分钟认识《速度与激情8》中的所有车型 38" }
+Mon, 15 May 2017 09:41:11 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "Speakerbox 速度与激情8插曲 原唱 试听" }
+Mon, 15 May 2017 09:41:12 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "除了五毛特效 《速度与激情8》告诉你飙车还可以这么玩儿 12" }
+Mon, 15 May 2017 09:41:15 video_url_spider.py[line:202] INFO 速度与激情:souhu
+Mon, 15 May 2017 09:41:15 video_url_spider.py[line:30] INFO target site:souhu, spider begin...
+Mon, 15 May 2017 09:42:28 video_url_spider.py[line:202] INFO 速度与激情:souhu
+Mon, 15 May 2017 09:42:28 video_url_spider.py[line:30] INFO target site:souhu, spider begin...
+Mon, 15 May 2017 09:43:45 video_url_spider.py[line:202] INFO 速度与激情:tudou
+Mon, 15 May 2017 09:43:45 video_url_spider.py[line:30] INFO target site:tudou, spider begin...
+Mon, 15 May 2017 09:43:46 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "CBIN速度与激情（铲刹）" }
+Mon, 15 May 2017 09:43:47 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "一分钟认识《速度与激情8》中的所有车型 38" }
+Mon, 15 May 2017 09:43:48 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "Speakerbox 速度与激情8插曲 原唱 试听" }
+Mon, 15 May 2017 09:44:00 video_url_spider.py[line:202] INFO 速度与激情:souhu
+Mon, 15 May 2017 09:44:00 video_url_spider.py[line:30] INFO target site:souhu, spider begin...
+Mon, 15 May 2017 09:46:20 video_url_spider.py[line:202] INFO 速度与激情:tudou
+Mon, 15 May 2017 09:46:21 video_url_spider.py[line:30] INFO target site:tudou, spider begin...
+Mon, 15 May 2017 09:46:23 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "CBIN速度与激情（铲刹）" }
+Mon, 15 May 2017 09:46:24 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "一分钟认识《速度与激情8》中的所有车型 38" }
+Mon, 15 May 2017 09:46:25 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "Speakerbox 速度与激情8插曲 原唱 试听" }
+Mon, 15 May 2017 09:46:26 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "除了五毛特效 《速度与激情8》告诉你飙车还可以这么玩儿 12" }
+Mon, 15 May 2017 09:47:59 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "http://dd.ma/X1j1kpxD速度与激情7完整版高清" }
+Mon, 15 May 2017 09:48:10 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情8》“古巴赛车”特辑" }
+Mon, 15 May 2017 09:48:14 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情8》“古巴赛车”特辑" }
+Mon, 15 May 2017 09:48:23 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情8》曝导演特辑 F·加里·格雷开启系列新篇章" }
+Mon, 15 May 2017 09:48:27 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情8》曝“颠覆回归”特辑" }
+Mon, 15 May 2017 09:48:48 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情8》“僵尸车”特辑" }
+Mon, 15 May 2017 09:48:58 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "海上的速度与激情 冲浪者挑战惊天巨浪" }
+Mon, 15 May 2017 09:49:02 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "玩转津城家门口的滑雪场 感受速度与激情" }
+Mon, 15 May 2017 09:49:09 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7" }
+Mon, 15 May 2017 09:50:08 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7" }
+Mon, 15 May 2017 09:50:25 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情" }
+Mon, 15 May 2017 09:50:26 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情" }
+Mon, 15 May 2017 09:50:28 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情" }
+Mon, 15 May 2017 09:50:29 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情" }
+Mon, 15 May 2017 09:50:30 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情" }
+Mon, 15 May 2017 09:50:31 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情" }
+Mon, 15 May 2017 09:50:32 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情" }
+Mon, 15 May 2017 09:50:33 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情" }
+Mon, 15 May 2017 09:50:34 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "没了保罗·沃克的《速度与激情8》还能看点啥? 205" }
+Mon, 15 May 2017 09:50:35 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情-双人" }
+Mon, 15 May 2017 09:50:36 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情8》口碑视频" }
+Mon, 15 May 2017 09:50:37 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "硬盘电机改造强暴小风扇，超强动力，真正体会到了速度与激情。" }
+Mon, 15 May 2017 09:50:40 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7" }
+Mon, 15 May 2017 09:50:44 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情5" }
+Mon, 15 May 2017 09:50:45 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情5" }
+Mon, 15 May 2017 09:50:46 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情6" }
+Mon, 15 May 2017 09:50:53 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情（原版）" }
+Mon, 15 May 2017 09:50:54 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情5" }
+Mon, 15 May 2017 09:50:55 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7" }
+Mon, 15 May 2017 09:50:56 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情 7" }
+Mon, 15 May 2017 09:50:57 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情4" }
+Mon, 15 May 2017 09:50:58 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情6" }
+Mon, 15 May 2017 09:51:03 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情6" }
+Mon, 15 May 2017 09:51:07 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7" }
+Mon, 15 May 2017 09:51:08 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7" }
+Mon, 15 May 2017 09:51:09 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7" }
+Mon, 15 May 2017 09:51:10 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情主题曲" }
+Mon, 15 May 2017 09:51:12 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情5" }
+Mon, 15 May 2017 09:51:13 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7" }
+Mon, 15 May 2017 09:51:14 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情6" }
+Mon, 15 May 2017 09:51:16 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情7》" }
+Mon, 15 May 2017 09:51:17 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情3" }
+Mon, 15 May 2017 09:51:18 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情7" }
+Mon, 15 May 2017 09:51:20 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情6" }
+Mon, 15 May 2017 09:51:23 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情》舞蹈" }
+Mon, 15 May 2017 09:51:24 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《速度与激情6》" }
+Mon, 15 May 2017 09:51:25 iqiyi.py[line:91] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "速度与激情 ： 速度与激情 预告片" }
+Mon, 15 May 2017 09:54:59 video_url_spider.py[line:202] INFO 敢死队:bilibili
+Mon, 15 May 2017 09:54:59 video_url_spider.py[line:30] INFO target site:bilibili, spider begin...
+Mon, 15 May 2017 09:55:21 video_url_spider.py[line:202] INFO 速度与激情:bilibili
+Mon, 15 May 2017 09:55:21 video_url_spider.py[line:30] INFO target site:bilibili, spider begin...
+Mon, 15 May 2017 09:55:32 video_url_spider.py[line:202] INFO 速度与激情:cntv
+Mon, 15 May 2017 09:55:32 video_url_spider.py[line:30] INFO target site:cntv, spider begin...
+Mon, 15 May 2017 09:55:42 video_url_spider.py[line:202] INFO 速度与激情:souhu
+Mon, 15 May 2017 09:55:42 video_url_spider.py[line:30] INFO target site:souhu, spider begin...
+Mon, 15 May 2017 12:03:26 video_url_spider.py[line:204] INFO 速度与激情:youtube
+Mon, 15 May 2017 12:03:26 video_url_spider.py[line:30] INFO target site:youtube, spider begin...

@@ -31,12 +31,15 @@ def main():
 	db = connection[DB]
 	collection = db[COLLECTION]
 	#query url set where status!=0
-	urls = collection.find({'status':{'$ne':0}},{'url':1,'site':1})
+	urls = collection.find({'content':'金正恩','status':{'$ne':0}},{'url':1,'site':1})
 	#set output path 
 	output_dir = "../web/static/video"
 	func_dict = {'sina':sina,'qq':qq,'iqiyi':iqiyi,'acfun':acfun,'cntv':cntv,'ifeng':ifeng,'bilibili':bilibili,'youku':youku,'tudou':tudou,'sohu':sohu}
 	for url in urls:
+		print("22222222222222222")
 		print(url)
+		print(type(url))
+		print("111111111111111")
 		try:
 			func = func_dict[url['site']]
 			if func==sina:
@@ -57,3 +60,4 @@ def main():
 if __name__ == '__main__':
 	main()
 	
+
