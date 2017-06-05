@@ -71,6 +71,9 @@ def task_tr_click(spider_id):
 			y_value.append(value)
 	xy_value = {'y_value':y_value,'x_value':x_value}
 	content = list(mongo.collection.find({'spider_id':spider_id},{'_id':0}))
+	for x in range(len(content)):
+		if isinstance(content[x]['institution'],list):
+			content[x]['institution'] = list(set(content[x]['institution']))
 	return {'xy_value':xy_value,'content':content}
 
 def patent_delete_task(spider_id):

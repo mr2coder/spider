@@ -1,148 +1,75 @@
-Tue, 23 May 2017 10:44:14 video_url_spider.py[line:204] INFO 机器学习:
-Tue, 23 May 2017 10:44:14 video_url_spider.py[line:30] INFO target site:, spider begin...
-Tue, 23 May 2017 10:54:45 video_url_spider.py[line:204] INFO 时间规划局:m1905
-Tue, 23 May 2017 10:54:45 video_url_spider.py[line:30] INFO target site:m1905, spider begin...
-Tue, 23 May 2017 11:00:41 video_url_spider.py[line:204] INFO 数据挖掘:youku
-Tue, 23 May 2017 11:00:41 video_url_spider.py[line:30] INFO target site:youku, spider begin...
-Tue, 23 May 2017 11:47:27 video_url_spider.py[line:204] INFO 安倍晋三:sina
-Tue, 23 May 2017 11:47:27 video_url_spider.py[line:30] INFO target site:sina, spider begin...
-Tue, 23 May 2017 11:47:27 video_url_spider.py[line:153] INFO total items:15968
-Tue, 23 May 2017 11:47:28 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=1&n=20
-Tue, 23 May 2017 11:47:29 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:29 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=2&n=20
-Tue, 23 May 2017 11:47:30 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:30 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=3&n=20
-Tue, 23 May 2017 11:47:31 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:31 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=4&n=20
-Tue, 23 May 2017 11:47:32 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:32 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=5&n=20
-Tue, 23 May 2017 11:47:34 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:34 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=6&n=20
-Tue, 23 May 2017 11:47:35 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:35 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=7&n=20
-Tue, 23 May 2017 11:47:36 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:36 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=8&n=20
-Tue, 23 May 2017 11:47:37 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:37 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=9&n=20
-Tue, 23 May 2017 11:47:38 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:38 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=10&n=20
-Tue, 23 May 2017 11:47:39 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:39 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=11&n=20
-Tue, 23 May 2017 11:47:40 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:40 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=12&n=20
-Tue, 23 May 2017 11:47:41 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:41 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=13&n=20
-Tue, 23 May 2017 11:47:42 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:42 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=14&n=20
-Tue, 23 May 2017 11:47:43 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:43 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=15&n=20
-Tue, 23 May 2017 11:47:44 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:44 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=16&n=20
-Tue, 23 May 2017 11:47:46 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:46 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=17&n=20
-Tue, 23 May 2017 11:47:47 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:47 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=18&n=20
-Tue, 23 May 2017 11:47:48 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:48 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=19&n=20
-Tue, 23 May 2017 11:47:49 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:49 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=20&n=20
-Tue, 23 May 2017 11:47:50 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:50 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=21&n=20
-Tue, 23 May 2017 11:47:51 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:51 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=22&n=20
-Tue, 23 May 2017 11:47:52 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:52 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=23&n=20
-Tue, 23 May 2017 11:47:53 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:53 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=24&n=20
-Tue, 23 May 2017 11:47:54 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:54 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=25&n=20
-Tue, 23 May 2017 11:47:55 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:55 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=26&n=20
-Tue, 23 May 2017 11:47:56 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:56 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=27&n=20
-Tue, 23 May 2017 11:47:57 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:57 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=28&n=20
-Tue, 23 May 2017 11:47:58 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:58 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=29&n=20
-Tue, 23 May 2017 11:47:59 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:47:59 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=30&n=20
-Tue, 23 May 2017 11:48:00 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:00 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=31&n=20
-Tue, 23 May 2017 11:48:01 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:01 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=32&n=20
-Tue, 23 May 2017 11:48:03 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:03 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=33&n=20
-Tue, 23 May 2017 11:48:04 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:04 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=34&n=20
-Tue, 23 May 2017 11:48:05 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:05 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=35&n=20
-Tue, 23 May 2017 11:48:06 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:06 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=36&n=20
-Tue, 23 May 2017 11:48:07 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:07 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=37&n=20
-Tue, 23 May 2017 11:48:08 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:08 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=38&n=20
-Tue, 23 May 2017 11:48:09 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:09 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=39&n=20
-Tue, 23 May 2017 11:48:10 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:10 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=安倍晋三&s_id=w00001&p=40&n=20
-Tue, 23 May 2017 11:48:17 video_url_spider.py[line:204] INFO 机器学习:youku
-Tue, 23 May 2017 11:48:17 video_url_spider.py[line:30] INFO target site:youku, spider begin...
-Tue, 23 May 2017 11:48:28 video_url_spider.py[line:204] INFO 朝鲜:sina
-Tue, 23 May 2017 11:48:28 video_url_spider.py[line:30] INFO target site:sina, spider begin...
-Tue, 23 May 2017 11:48:28 video_url_spider.py[line:153] INFO total items:22978
-Tue, 23 May 2017 11:48:29 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=1&n=20
-Tue, 23 May 2017 11:48:30 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:30 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=2&n=20
-Tue, 23 May 2017 11:48:31 video_url_spider.py[line:183] DEBUG batch op errors occurred
-Tue, 23 May 2017 11:48:31 video_url_spider.py[line:161] INFO Currently crawling web pages is: http://so.video.sina.com.cn/interface/s?from=video&wd=朝鲜&s_id=w00001&p=3&n=20
-Tue, 23 May 2017 11:49:51 video_url_spider.py[line:204] INFO 数据挖掘:youku
-Tue, 23 May 2017 11:49:51 video_url_spider.py[line:30] INFO target site:youku, spider begin...
-Tue, 23 May 2017 11:49:53 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "宝宝巴士 工程车大吊车组装 工程车操作挖掘机工作推土机汽车" }
-Tue, 23 May 2017 11:49:54 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "熊出没之光头强驾驶挖掘机_女奥特曼受伤严重" }
-Tue, 23 May 2017 11:49:57 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "拖车汤姆火车 挖掘机视频表演大全25 挖土机玩具视频 汽车总动员 赛车总动" }
-Tue, 23 May 2017 11:49:59 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "娱乐益智98 宝宝巴士之宝宝钓鱼 挖掘机视频表演 宝宝巴士动画片小猪佩奇玩具视频" }
-Tue, 23 May 2017 11:50:11 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "宝宝巴士 工程车大吊车组装 工程车操作挖掘机工作推土机汽车" }
-Tue, 23 May 2017 11:50:30 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "变形警车珀利 赛车总动员2 挖掘机 挖土机 汽车总动员 挖土机玩具视频 挖土机动画片40" }
-Tue, 23 May 2017 11:50:31 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "变形警车珀利 赛车总动员2 挖掘机 挖土机 汽车总动员 挖土机玩具视频 挖土机动画片36" }
-Tue, 23 May 2017 11:50:51 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频 玩具a 汽车总动员赛车总动员变形警车珀利" }
-Tue, 23 May 2017 11:50:58 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "变形警车珀利 赛车总动员2 挖掘机 挖土机 汽车总动员 挖土机玩具视频 挖土机动画片44" }
-Tue, 23 May 2017 11:51:07 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频 玩具a 汽车总动员赛车总动员变形警车珀利" }
-Tue, 23 May 2017 11:51:08 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "变形警车珀利 赛车总动员2 挖掘机 挖土机 汽车总动员 挖土机玩具视频 挖土机动画片37" }
-Tue, 23 May 2017 11:51:10 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "宝宝巴士 工程车大吊车组装 工程车操作挖掘机工作推土机汽车" }
-Tue, 23 May 2017 11:51:34 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "拖车汤姆火车 挖掘机视频表演大全8 挖土机玩具视频 汽车总动员" }
-Tue, 23 May 2017 11:51:45 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "变形警车珀利 赛车总动员2 挖掘机 挖土机 汽车总动员 挖土机玩具视频 挖土机动画片" }
-Tue, 23 May 2017 11:51:51 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全62 工程车 推土机 挖土机玩具视频 汽车总动员 赛车总动员10" }
-Tue, 23 May 2017 11:52:03 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "变形警车珀利 赛车总动员2 挖掘机 挖土机 汽车总动员 挖土机玩具视频 挖土机动画片29" }
-Tue, 23 May 2017 11:52:08 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全62 工程车 推土机 挖土机玩具视频 汽车总动员 赛车总动员10" }
-Tue, 23 May 2017 11:52:17 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频 玩具9 汽车总动员赛车总动员变形警车珀利100" }
-Tue, 23 May 2017 11:52:20 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演 超级飞侠遇到挖土机工程车" }
-Tue, 23 May 2017 11:52:26 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频 玩具a 汽车总动员赛车总动员变形警车珀利" }
-Tue, 23 May 2017 11:52:43 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机201705" }
-Tue, 23 May 2017 11:52:46 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全62 工程车 推土机 挖土机玩具视频 汽车总动员 赛车总动员8" }
-Tue, 23 May 2017 11:52:59 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "熊出没之熊大开挖掘机表演视频" }
-Tue, 23 May 2017 11:53:06 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "拖车汤姆火车 挖掘机视频表演大全7 挖土机玩具视频" }
-Tue, 23 May 2017 11:53:07 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频 玩具a 汽车总动员赛车总动员变形警车珀利" }
-Tue, 23 May 2017 11:53:08 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频 玩具a 汽车总动员赛车总动员变形警车珀利3" }
-Tue, 23 May 2017 11:53:13 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机" }
-Tue, 23 May 2017 11:53:15 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "开挖掘机" }
-Tue, 23 May 2017 11:53:17 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "开挖掘机" }
-Tue, 23 May 2017 11:53:21 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "珠宝挖掘机游戏" }
-Tue, 23 May 2017 11:53:30 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "涨停板战法看高手挖掘牛股技术" }
-Tue, 23 May 2017 11:53:36 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "涨停板战法看高手挖掘牛股技术" }
-Tue, 23 May 2017 11:53:39 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "涨停板买入法手挖掘牛股" }
-Tue, 23 May 2017 11:54:24 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "开挖掘机带妹子浪，嗨翻天！" }
-Tue, 23 May 2017 11:54:30 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全 挖土机玩具视频 汽车总动员" }
-Tue, 23 May 2017 11:54:45 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频 玩具 汽车总动员赛车总动员" }
-Tue, 23 May 2017 11:54:54 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频 玩具 汽车总动员赛车总动员" }
-Tue, 23 May 2017 11:54:57 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "如何判断个股的短线卖点 怎样挖掘潜力股 (8)" }
-Tue, 23 May 2017 11:55:12 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "变形警车珀利玩具视频 赛车总动员之小恐龙开挖掘机动画玩具视频" }
-Tue, 23 May 2017 11:55:13 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "拖车汤姆火车 挖掘机视频表演大全7 挖土机玩具视频" }
-Tue, 23 May 2017 11:55:19 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "lol小智直播 挖掘机50杀大翻盘 精彩一比" }
-Tue, 23 May 2017 11:55:26 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "变形警车珀利 赛车总动员2 挖掘机 挖土机 汽车总动员 挖土机玩具视频 挖土机动画片38" }
-Tue, 23 May 2017 11:55:28 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "变形警车珀利 赛车总动员2 挖掘机 挖土机 汽车总动员 挖土机玩具视频 挖土机动画片46" }
-Tue, 23 May 2017 11:55:29 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "变形警车珀利 赛车总动员2 挖掘机 挖土机 汽车总动员 挖土机玩具视频 挖土机动画片38" }
-Tue, 23 May 2017 11:55:30 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频 玩具a 汽车总动员赛车总动员变形警车珀利4" }
-Tue, 23 May 2017 11:55:31 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频 玩具a 汽车总动员赛车总动员变形警车珀利3" }
-Tue, 23 May 2017 11:55:36 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "挖掘机视频表演大全挖土机玩具视频 玩具a 汽车总动员赛车总动员变形警车珀利4" }
-Tue, 23 May 2017 11:55:49 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "遵义8岁小朋友开挖掘机上拖车走红 动作娴熟" }
+Mon, 05 Jun 2017 15:14:27 video_url_spider.py[line:204] INFO 敢死队:bilibili
+Mon, 05 Jun 2017 15:14:27 video_url_spider.py[line:30] INFO target site:bilibili, spider begin...
+Mon, 05 Jun 2017 15:14:29 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "环太平洋敢死队" }
+Mon, 05 Jun 2017 15:14:31 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【monsterhigh】怪物高中动画-捉鬼敢死队" }
+Mon, 05 Jun 2017 15:14:32 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "极限运动之美【红牛敢死队】【搬运】" }
+Mon, 05 Jun 2017 15:14:33 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "5新进冲锋敢死队" }
+Mon, 05 Jun 2017 15:14:35 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《敢死队3 / The Expendables 3》1080P预告片" }
+Mon, 05 Jun 2017 15:14:37 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《敢死队2 / The Expendables 2》1080P预告片" }
+Mon, 05 Jun 2017 15:14:38 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《敢死队2 / The Expendables 2》1080P预告片(2)" }
+Mon, 05 Jun 2017 15:14:39 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【Artifex】乐高 71228 维度次元 捉鬼敢死队 升级包" }
+Mon, 05 Jun 2017 15:14:42 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【辣鸡de剪辑】敢死队and速6燃向混剪" }
+Mon, 05 Jun 2017 15:14:48 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "[RTL-CBS] 红牛敢死队 极限运动集锦2015 EP.07 英语中字" }
+Mon, 05 Jun 2017 15:15:09 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "超酷蒙古敢死队，古代骑兵。" }
+Mon, 05 Jun 2017 15:15:10 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【Artifex】乐高 71233 维度次元 捉鬼敢死队 棉花糖鬼" }
+Mon, 05 Jun 2017 15:16:32 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【单板滑雪】红牛敢死队挑战魁北克城市中超级地形" }
+Mon, 05 Jun 2017 15:17:09 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "盟军敢死队2 套神高级通用战术 蓝光分离式" }
+Mon, 05 Jun 2017 15:17:11 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "XDubai敢死队新作 身着翼装在迪拜的楼宇之间穿梭" }
+Mon, 05 Jun 2017 15:17:14 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【中字】《敢死队3》发布正式预告 阵容态度任务全面升级" }
+Mon, 05 Jun 2017 15:17:15 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "女版《捉鬼敢死队》曝光正式预告 @柚子木字幕组" }
+Mon, 05 Jun 2017 15:17:16 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "盟军敢死队2 P4 疯狂坦克 水鬼绝学之吐槽" }
+Mon, 05 Jun 2017 15:17:17 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【预告】经典系列回归！新版《捉鬼敢死队》抢先高清预告【BtoZmovie】" }
+Mon, 05 Jun 2017 15:17:18 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【Artifex】乐高 71233 维度次元 捉鬼敢死队 棉花糖鬼" }
+Mon, 05 Jun 2017 15:17:19 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "Cold Steel 美国冷钢 大号伊斯巴达折刀测试 史泰龙《敢死队》同款" }
+Mon, 05 Jun 2017 15:17:20 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【拇指哥】捉鬼敢死队咖喱和台湾杯面(2)" }
+Mon, 05 Jun 2017 15:17:22 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【古德Maxlinwei】COD13 BETA 空间地图之逗逼敢死队" }
+Mon, 05 Jun 2017 15:17:26 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "（中文字幕）诚实预告——捉鬼敢死队" }
+Mon, 05 Jun 2017 15:17:27 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "原6区盟军敢死队 公会视频 庆祝盟军11周年~" }
+Mon, 05 Jun 2017 15:17:28 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【暴走看啥片第二季】25 战狼：中国队长龙傲天大战敢死队" }
+Mon, 05 Jun 2017 15:17:33 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "接受UFC训练在敢死队，和斯坦森打平手" }
+Mon, 05 Jun 2017 15:17:45 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "最早的“敢死队”出现在中国？比“卧薪尝胆”的故事还要早！" }
+Mon, 05 Jun 2017 15:17:53 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "盟军敢死队使命召唤之勇往直前 01关  穿越封锁线 套神战术实况版 娱乐字幕版" }
+Mon, 05 Jun 2017 15:17:54 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【首播】 五秒盛夏5SOS《Girls Talk Boys》官方MV -超能敢死队原声" }
+Mon, 05 Jun 2017 15:17:55 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "盟军敢死队2 EX1关卡 差点死档之神战术" }
+Mon, 05 Jun 2017 15:17:56 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "守望敢死队搞笑集锦第三期，装B的不配回来！" }
+Mon, 05 Jun 2017 15:17:58 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "满怀欣喜等着被解救，结果这群敢死队吓跑敌人后，集体拔刀捅自己" }
+Mon, 05 Jun 2017 15:17:59 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【TNABO】《捉鬼敢死队》剧本解析-《捉鬼敢死队》是如何成为《捉鬼敢死队》的" }
+Mon, 05 Jun 2017 15:18:19 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "第47集磊哥9900直播影子战术将军之刃攻略流程日本幕府战国时代即时战略游戏盟军敢死队单机电脑游戏" }
+Mon, 05 Jun 2017 15:18:30 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "第41集磊哥9900直播影子战术将军之刃攻略流程日本幕府战国时代即时战略游戏盟军敢死队单机电脑游戏" }
+Mon, 05 Jun 2017 15:18:37 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《废柴和尚敢死队》高能预告" }
+Mon, 05 Jun 2017 15:18:40 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "盟军敢死队之不可能完成的任务 狙击杀阵 全捆" }
+Mon, 05 Jun 2017 15:18:41 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【国际中文版】女版-捉鬼敢死队 (台译：魔鬼剋星) 正式电影预告" }
+Mon, 05 Jun 2017 15:18:42 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "继红牛敢死队天门山发卡弯漂移之后 意大利车手又驾驶法拉利来挑战天门山发卡弯" }
+Mon, 05 Jun 2017 15:18:43 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "洛奇英雄传 敢死队过关卡丹版本" }
+Mon, 05 Jun 2017 15:18:45 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "最燃热血电影混剪，1分钟带你看完碟中谍敢死队" }
+Mon, 05 Jun 2017 15:18:46 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "GTA5-敢死队（GSD）【变态绅士】." }
+Mon, 05 Jun 2017 15:18:48 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "“涨停板敢死队”揭秘：如何追强势股，打造持续复利机器（预告）" }
+Mon, 05 Jun 2017 15:18:53 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "盟军敢死队2 K11救间谍 吐血吧 看完不服气的人 套神战术实况版" }
+Mon, 05 Jun 2017 15:18:54 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "《敢死队3》角色预告" }
+Mon, 05 Jun 2017 15:18:57 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "盟军敢死队2 不可能完成的任务 B1 急速快艇" }
+Mon, 05 Jun 2017 15:18:59 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【彪马实时秀】0725新规则 普京又躺枪 人太多的敢死队 2年仍新鲜的热狗" }
+Mon, 05 Jun 2017 15:19:19 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "诚实预告片-超能敢死队" }
+Mon, 05 Jun 2017 15:19:20 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "（毒药）不怕死的敢死队！" }
+Mon, 05 Jun 2017 15:19:21 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "捉鬼敢死队预告" }
+Mon, 05 Jun 2017 15:19:22 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "守望先锋：敢死队版全程最佳" }
+Mon, 05 Jun 2017 15:19:23 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【红牛敢死队 / 1080P 】摩托过山车" }
+Mon, 05 Jun 2017 15:19:38 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【柯南秀】《捉鬼敢死队》搞笑片段" }
+Mon, 05 Jun 2017 15:19:39 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【萌军丶敢死队】 剑啸江湖 剑网三" }
+Mon, 05 Jun 2017 15:19:40 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【红牛敢死队】翼装飞行和各种极限运动" }
+Mon, 05 Jun 2017 15:19:41 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "爱剪辑-国产敢死队动漫之一【星游记】_clip" }
+Mon, 05 Jun 2017 15:19:52 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【桃桃字幕组】超能敢死队（2016）【双语预告片】" }
+Mon, 05 Jun 2017 15:19:53 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【黑礁MAD】剪辑神同步【敢死队预告原声替换】" }
+Mon, 05 Jun 2017 15:20:00 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【节操解说】《超越光速》01-登舰敢死队！" }
+Mon, 05 Jun 2017 15:20:01 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "fc盟军敢死队通关攻略视频" }
+Mon, 05 Jun 2017 15:20:02 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "『Activision 捉鬼敢死队』宣传视频" }
+Mon, 05 Jun 2017 15:20:11 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "充满哲♂学气息的游戏《武装原型：敢死队》游戏实况" }
+Mon, 05 Jun 2017 15:20:13 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "捉鬼敢死队预告片（高清）@油兔不二字幕组" }
+Mon, 05 Jun 2017 15:20:15 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【美渣ZAYN】Like I Would乱入捉鬼敢死队" }
+Mon, 05 Jun 2017 15:20:16 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【红牛敢死队】雪山上的翼装飞行与滑翔伞" }
+Mon, 05 Jun 2017 15:20:17 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "Ghostbusters 超能敢死队 -Patty- Character Featurette - Leslie Jon" }
+Mon, 05 Jun 2017 15:20:19 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【The Expendables】【敢死队】【冈纳/阴阳】西门纳的眼泪" }
+Mon, 05 Jun 2017 15:20:20 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "红牛全球敢死队 HERE AND NOW - ASLEEP IN A CINEMA - Perfect Storm" }
+Mon, 05 Jun 2017 15:20:21 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【噗通响字幕组】Pentatonix演唱《捉鬼敢死队》Ghostbuster原声" }
+Mon, 05 Jun 2017 15:20:24 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "Ghostbusters 超能敢死队 -Holtzmann- Character Featurette - Kate M" }
+Mon, 05 Jun 2017 15:20:25 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "盟军敢死队1深入敌后极速通关BY魔音游侠" }
+Mon, 05 Jun 2017 15:20:27 iqiyi.py[line:92] DEBUG insertDocument :: caused by :: 11000 E11000 duplicate key error index: video.urlinfo.$videoname_1  dup key: { : "【王凯】【铁道飞虎】导演特辑 成龙王凯组平民敢死队" }

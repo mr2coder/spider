@@ -59,11 +59,12 @@ def get_patent(url,form,proxie,time=TIMEOUT, **kwarg):
 		re_html = re.compile('<.*?>')
 		titles = doc.xpath('//div[@class="item-header clear"]/h1/div[2]/a/@title')
 		titles = [re_html.sub('',x) for x in titles]
-		
 		t_ids = doc.xpath('//div[@class="item-content-body left"]/p[1]/text()')
-		r_dates = doc.xpath('//div[@class="item-content-body left"]/p[2]/a/text()')
+		r_dates = doc.xpath('//div[@class="item-content-body left"]/p[2]/a')
+		r_dates = [''.join(x.xpath('.//text()')) for x in r_dates]
 		o_ids = doc.xpath('//div[@class="item-content-body left"]/p[3]/text()')
-		o_dates = doc.xpath('//div[@class="item-content-body left"]/p[4]/a/text()')
+		o_dates = doc.xpath('//div[@class="item-content-body left"]/p[4]/a')
+		o_dates = [''.join(x.xpath('.//text()')) for x in o_dates]
 		icp_ids = doc.xpath('//div[@class="item-content-body left"]/p[5]')
 		icp_ids = [";".join(x.xpath('.//span/a/@_name')) for x in icp_ids]
 		insititutions = doc.xpath('//div[@class="item-content-body left"]/p[6]')
@@ -72,7 +73,7 @@ def get_patent(url,form,proxie,time=TIMEOUT, **kwarg):
 		authors = [[i.strip() for i in x.xpath('.//span/a/text()')] for x in authors]
 		proxies = doc.xpath('//div[@class="item-content-body left"]/p[8]/text()')
 		proxy_insititutions = doc.xpath('//div[@class="item-content-body left"]/p[9]/text()')
-
+		print(r_dates)
 		del_index = [] #用来保存将要删除数据的位置,当一条数据的机构与作者个数不能对应时,就丢掉这条数据
 		for i in range(len(insititutions)):
 			if len(insititutions[i])==0 or (len(insititutions[i])!=1 and len(insititutions[i])!=len(authors[i])):
@@ -90,6 +91,8 @@ def get_patent(url,form,proxie,time=TIMEOUT, **kwarg):
 		item["proxy_insititutions"] = [value for index,value in enumerate(proxy_insititutions) if index not in del_index]
 		item["icp_ids"] = [value for index,value in enumerate(icp_ids) if index not in del_index]
 		item["r_dates"] = [value for index,value in enumerate(r_dates) if index not in del_index]
+		print(item["o_dates"])
+		print(item["r_dates"])
 		return item
 	except Exception as e:
 		logger.debug('页面解析失败')
@@ -100,9 +103,9 @@ def form_produce(content,page = None):
 	#构造查询条件式
 	format_str = []
 	if content.get('begin'):
-		format_str.append('申请日>'+content.get('begin'))
+		format_str.append('申请日>='+content.get('begin'))
 	if content.get('end'):
-		format_str.append('申请日<'+content.get('end'))
+		format_str.append('申请日<='+content.get('end'))
 	if content.get('title'):
 		format_str.append('发明名称=('+content.get('title')+')')
 	if content.get('qwords'):
